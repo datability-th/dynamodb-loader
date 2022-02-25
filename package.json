@@ -1,0 +1,22 @@
+{
+  "name": "dynamodb-loader",
+  "version": "1.0.0",
+  "description": "Loading JSON data to DynamoDB the simplest and consistent way!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datability-th/dynamodb-loader.git"
+  },
+  "author": "Thanapapas Horsuwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datability-th/dynamodb-loader/issues"
+  },
+  "homepage": "https://github.com/datability-th/dynamodb-loader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1081.0"
+  }
+}
