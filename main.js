@@ -23,14 +23,14 @@ console.log("Importing data into DynamoDB. Please wait.");
 const allData = JSON.parse(fs.readFileSync('./data/data.json', 'utf8'));
 
 allData.map( data => {
-    // const putParams = {
-    //     TableName: process.env.DYNAMO_TABLE_NAME,
-    //     Item: data
-    // };
+    const putParams = {
+        TableName: process.env.DYNAMO_TABLE_NAME,
+        Item: data
+    };
 
-    // db.put(putParams, (err, output) => {
-    //     if(err) console.error("UNABLE TO ADD ", err)
-    //     else console.log("PutItem succeeded: ", data)
-    // });
+    db.put(putParams, (err, output) => {
+        if(err) console.error("UNABLE TO ADD ", err)
+        else console.log("PutItem succeeded: ", data)
+    });
     // console.log("DATA",data)
 });
