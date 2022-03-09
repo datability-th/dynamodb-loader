@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/datability-th/dynamodb-loader#readme",
   "dependencies": {
-    "aws-sdk": "^2.1081.0"
+    "aws-sdk": "^2.1081.0",
+    "csv-parse": "^5.0.4",
+    "yargs": "^17.3.1"
   }
 }
