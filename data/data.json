@@ -1,0 +1,10 @@
+[
+    {
+        "PK": "testPK",
+        "SK": "testSK"
+    },
+    {
+        "PK": "testPK",
+        "SK": "testSK2"
+    }
+]
