@@ -1,9 +1,12 @@
+require('dotenv').config()
 var fs = require("fs")
 var csv = require("csv-parse/sync")
 const yargs = require("yargs/yargs")
 const AWS = require("aws-sdk")
 const transform = require('./keyTransformer')
 const postprocess = require('./postprocess')
+
+console.time("Total Runtime")
 
 // Parsing CSV2JSON
 // node csv2json.js -i csv/data.csv -o data2.json
@@ -32,6 +35,11 @@ const argv = yargs(process.argv.slice(2))
     type: "boolean",
     description: "Whether to postprocess in postprocess.js"
   })
+  .option("name", {
+    alias: "n",
+    type: "string",
+    description: "Whether to use adapter name"
+  })
   .help()
   .parse()
 
@@ -45,9 +53,10 @@ console.timeEnd(`Parsed CSV from ${argv.input}`)
 var collection = parsedCsv.slice() //COPY
 
 // 1.2 Get the Keys
-var keys = collection.shift() //KEY
+// EDIT: Trim because there is U+FEFF Invisible Character?!
+var keys = collection.shift().map(key => key.trim()) //KEY
 if(argv.transform){
-    keys = transform(keys)
+    keys = transform(keys, argv.name)
 }
 
 console.log("============================================")
@@ -74,8 +83,8 @@ collection = collection.map((e) => {
         })
       }
       obj[key] = parsedList
-      console.log("EXAMPLE", e[i])
-      console.log("OUT>> ", JSON.stringify(parsedList))
+      // console.log("EXAMPLE", e[i])
+      // console.log("OUT>> ", JSON.stringify(parsedList))
     } else if (/{.*}/.test(e[i])) {
       // 2.3.2 Handle Opens and Ends with { }. JSON.parse() to Object
       // This means it's a map?
@@ -91,7 +100,7 @@ collection = collection.map((e) => {
 
 // 3. Postprocess if any
 if(argv.postprocess){
-    collection = postprocess(collection)
+    collection = postprocess(collection, argv.name)
 }
 
 
@@ -99,3 +108,4 @@ if(argv.postprocess){
 fs.writeFileSync(argv.output, JSON.stringify(collection, undefined, 2))
 
 console.log("DONE")
+console.timeEnd("Total Runtime")

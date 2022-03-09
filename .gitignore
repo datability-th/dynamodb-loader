@@ -111,3 +111,8 @@ data/*
 # Sample Data Files
 !data/data.csv
 !data/data.json
+
+# Postprocess Adapters
+adapter/*
+!adapter/postprocess.js
+!adapter/keyTransformer.js
