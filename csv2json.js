@@ -11,7 +11,7 @@ const argv = yargs(process.argv.slice(2))
     alias: "i",
     type: "string",
     description: "Input CSV file",
-    default: "csv/data.csv",
+    default: "data/data.csv",
     demandOption: true,
   })
   .option("output", {

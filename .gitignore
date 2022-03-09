@@ -105,3 +105,6 @@ dist
 
 # environment files
 .env
+
+# Data files
+data/
