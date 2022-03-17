@@ -108,7 +108,10 @@ dist
 
 # Data files
 data/*
+<<<<<<< HEAD
 csv
+=======
+>>>>>>> fb9a0eb0283710dcc66e6cf5f6d098c14cfd9f32
 # Sample Data Files
 !data/data.csv
 !data/data.json

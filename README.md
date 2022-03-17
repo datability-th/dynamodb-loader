@@ -17,6 +17,17 @@ docker run --rm --env-file .env -v $(pwd)/data:/data knighth/dynamodb-loader:1.0
 
 # Local Testing
 
+Convert CSV to JSON with utility + Transformation + Postprocess
+```bash
+node csv2json.js -i data/data.csv -o data/data2.json -t -p
+```
+
+Manually Run main.js to push to AWS DynamoDb
+```bash
+node main.js
+```
+
+# Option#2: Local Testing with Docker Build
 ```
 docker build -t dynamodb-loader .
 ```
