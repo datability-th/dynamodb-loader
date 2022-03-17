@@ -1,7 +1,7 @@
 var fs = require("fs");
 var csv = require('csv-parse/sync');
 
-const csvData = fs.readFileSync('csv/results.csv', 'utf8')
+const csvData = fs.readFileSync('csv/p10.csv', 'utf8')
 const parsedCsv = csv.parse(csvData)
 
 
@@ -37,6 +37,6 @@ console.log(JSON.stringify(collection,undefined,2),"TO -J Json")
 
 
 
-fs.writeFileSync('data/data.json', JSON.stringify(collection,"ping",2))
+fs.writeFileSync('data/data10.json', JSON.stringify(collection,undefined,2))
 
 console.log("DONE")
