@@ -70,11 +70,17 @@ collection = collection.map((e) => {
     if (e[i] === "" || e[i].length === 0 || e[i] === "null") {
       // 2.3.1 Ignore if it is null/blank
       continue
-    } else if (/\[.*\]/.test(e[i])) {
+    } else if (/^\[.*\]$/.test(e[i])) {
       // 2.3.2 Handle Opens and Ends with [ ] . JSON.parse() to List
       // This means it's a list
       // And Converter output  https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/Converter.html
-      var parsedList = JSON.parse(e[i])
+      try{
+        var parsedList = JSON.parse(e[i])
+      }catch(err) {
+        console.log(e[i])
+        console.log("LIST ERROR "+err)
+      }
+      
 
       // Inside the list will be dynamo Objects!!
       if (parsedList.length > 0) {
@@ -85,12 +91,21 @@ collection = collection.map((e) => {
       obj[key] = parsedList
       // console.log("EXAMPLE", e[i])
       // console.log("OUT>> ", JSON.stringify(parsedList))
-    } else if (/{.*}/.test(e[i])) {
+    } else if (/^{.*}$/.test(e[i])) {
       // 2.3.2 Handle Opens and Ends with { }. JSON.parse() to Object
       // This means it's a map?
       // And Converter output  https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/Converter.html
-      var parsedMap = AWS.DynamoDB.Converter.output(JSON.parse(e[i]))
-      obj[key] = parsedMap
+      try{
+        var parsedMap = JSON.parse(e[i])
+      }catch(err){
+          console.log("HSDAOI ERROR "+err)
+      }
+      obj[key] = {}
+
+      for (const [j, insideValue] of Object.entries(parsedMap)) {
+        obj[key][j] = AWS.DynamoDB.Converter.output(insideValue)
+      }
+    //   obj[key] = parsedMap
     } else {
       obj[key] = e[i]
     }
