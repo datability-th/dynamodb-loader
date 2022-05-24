@@ -5,16 +5,24 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert:employee": "node csv2json.js -i data/2022-03-08_InnoEmployee_R1.csv -o data/2022-03-08_InnoEmployee_R1.json -t -p -n Employee",
-    "convert:position": "node csv2json.js -i data/2022-03-09_InnoPosition_R1.csv -o data/2022-03-09_InnoPosition_R1.json -t -p -n Position",
-    "convert:department": "node csv2json.js -i data/2022-03-09_InnoDepartment_R1.csv -o data/2022-03-09_InnoDepartment_R1.json -t -p -n Department",
-    "push:employee": "node main.js -i data/2022-03-08_InnoEmployee_R1.json",
-    "push:position": "node main.js -i data/2022-03-09_InnoPosition_R1.json",
-    "push:department": "node main.js -i data/2022-03-09_InnoDepartment_R1.json",
-    "all:employee": "npm run convert:employee && npm run push:employee",
-    "all:position": "npm run convert:position && npm run push:position",
-    "all:department": "npm run convert:department && npm run push:department",
-    "all": "npm-run-all all:*",
+    "ll:convert:employee": "node csv2json.js -i data/2022-03-08_InnoEmployee_R1.csv -o data/2022-03-08_InnoEmployee_R1.json -t -p -n Employee",
+    "ll:convert:position": "node csv2json.js -i data/2022-03-09_InnoPosition_R1.csv -o data/2022-03-09_InnoPosition_R1.json -t -p -n Position",
+    "ll:convert:department": "node csv2json.js -i data/2022-03-09_InnoDepartment_R1.csv -o data/2022-03-09_InnoDepartment_R1.json -t -p -n Department",
+    "ll:push:employee": "node main.js -i data/2022-03-08_InnoEmployee_R1.json -t LinkLook-HRMainTable-devknight",
+    "ll:push:position": "node main.js -i data/2022-03-09_InnoPosition_R1.json -t LinkLook-HRMainTable-devknight",
+    "ll:push:department": "node main.js -i data/2022-03-09_InnoDepartment_R1.json -t LinkLook-HRMainTable-devknight",
+    "ll:push:OtherIncomeExpenseConfig": "node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-devknight",
+    "ll:push:PayrollConfig": "node main.js -i data/PayrollConfig.json -t LinkLook-HRConfigTable-devknight",
+    "ll:push:SocialSecurityConfig": "node main.js -i data/SocialSecurityConfig.json -t LinkLook-HRConfigTable-devknight",
+    "ll:all:employee": "NAME=employee; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:position": "NAME=position; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:department": "NAME=department; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:OtherIncomeExpenseConfig": "NAME=OtherIncomeExpenseConfig; npm run ll:push:$NAME",
+    "ll:all:PayrollConfig": "NAME=PayrollConfig; npm run ll:push:$NAME",
+    "ll:all:SocialSecurityConfig": "NAME=SocialSecurityConfig; npm run ll:push:$NAME",
+    "ll:all": "npm-run-all ll:all:*",
+
+
     "convert:user": "node csv2json.js -i csv/user.csv -o data/user.json",
     "convert:p1": "node csv2json.js -i csv/p1.csv -o data/p1.json",
     "convert:p2": "node csv2json.js -i csv/p2.csv -o data/p2.json",
@@ -52,8 +60,8 @@
     "all:top:p9": "npm run convert:p9 && npm run push:p9",
     "all:top:p10": "npm run convert:p10 && npm run push:p10",
     "all:top:allproject": "npm-run-all all:top:p*",
-    "all:top": "npm-run-all all:top:*"
-
+    "all:top": "npm-run-all all:top:*",
+    "push:lloiec": "node main.js -i data/otherIncomeExpenseConfig.json"
   },
   "repository": {
     "type": "git",

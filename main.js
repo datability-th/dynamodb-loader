@@ -14,6 +14,13 @@ const argv = yargs(process.argv.slice(2))
     default: "data/data.json",
     demandOption: true,
   })
+  .option("tablename", {
+    alias: "t",
+    type: "string",
+    description: "Input Table Name",
+    default: "SAMPLE_TABLE",
+    demandOption: false,
+  })
   .help()
   .parse()
 
@@ -23,7 +30,9 @@ AWS.config.update({
   region: process.env.AWS_REGION,
 })
 
-console.log("Table ", process.env.DYNAMO_TABLE_NAME)
+const TableName = argv.tablename ? argv.tablename : process.env.DYNAMO_TABLE_NAME
+
+console.log("TableName ", TableName)
 console.log("REGION ", process.env.AWS_REGION)
 console.log("accessKeyId ", process.env.AWS_ACCESS_KEY)
 console.log("secretAccessKey", process.env.AWS_SECRET_ACCESS_KEY)
@@ -39,7 +48,7 @@ const allData = JSON.parse(fs.readFileSync(argv.input, "utf8"))
 
 allData.map((data) => {
   const putParams = {
-    TableName: process.env.DYNAMO_TABLE_NAME,
+    TableName,
     Item: data,
   }
 
