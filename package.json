@@ -14,11 +14,13 @@
     "ll:push:OtherIncomeExpenseConfig": "node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-devknight",
     "ll:push:PayrollConfig": "node main.js -i data/PayrollConfig.json -t LinkLook-HRConfigTable-devknight",
     "ll:push:SocialSecurityConfig": "node main.js -i data/SocialSecurityConfig.json -t LinkLook-HRConfigTable-devknight",
+    "ll:push:OvertimeConfig": "node main.js -i data/OvertimeConfig.json -t LinkLook-HRConfigTable-devknight",
     "ll:all:employee": "NAME=employee; npm run ll:convert:$NAME && npm run ll:push:$NAME",
     "ll:all:position": "NAME=position; npm run ll:convert:$NAME && npm run ll:push:$NAME",
     "ll:all:department": "NAME=department; npm run ll:convert:$NAME && npm run ll:push:$NAME",
     "ll:all:OtherIncomeExpenseConfig": "NAME=OtherIncomeExpenseConfig; npm run ll:push:$NAME",
     "ll:all:PayrollConfig": "NAME=PayrollConfig; npm run ll:push:$NAME",
+    "ll:all:OvertimeConfig": "NAME=OvertimeConfig; npm run ll:push:$NAME",
     "ll:all:SocialSecurityConfig": "NAME=SocialSecurityConfig; npm run ll:push:$NAME",
     "ll:all": "npm-run-all ll:all:*",
 
