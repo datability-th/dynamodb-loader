@@ -50,6 +50,48 @@
     "ll:all": "npm-run-all ll:all:*",
 
 
+
+
+    "devping:_PUSH": "================ PUSH SECTION ==========================================",
+    "devping:_PUSH:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:employee": "STAGE=devping; node main.js -i data/2022-03-08_InnoEmployee_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:position": "STAGE=devping; node main.js -i data/2022-03-09_InnoPosition_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:department": "STAGE=devping; node main.js -i data/2022-03-09_InnoDepartment_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:Company": "STAGE=devping; node main.js -i data/Company.json -t LinkLook-HRMainTable-$STAGE",
+    
+    "devping:_PUSH:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:Payroll": "STAGE=devping; node main.js -i data/Payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+    
+    "devping:_PUSH:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:OtherIncomeExpenseConfig": "STAGE=devping; node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:PayrollConfig": "STAGE=devping; node main.js -i data/PayrollConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:OvertimeConfig": "STAGE=devping; node main.js -i data/OvertimeConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:SocialSecurityConfig": "STAGE=devping; node main.js -i data/SocialSecurityConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:LeaveConfig": "STAGE=devping; node main.js -i data/LeaveConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:WelfareConfig": "STAGE=devping; node main.js -i data/WelfareConfig.json -t LinkLook-HRConfigTable-$STAGE",
+
+
+    "devping:_RUNALL": "================ RUN ALL SECTION ==========================================",
+    "devping:_RUNALL:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:employee": "NAME=employee; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:position": "NAME=position; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:department": "NAME=department; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:Company": "NAME=Company; npm run devping:ll:push:$NAME",
+
+    "devping:_RUNALL:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:Payroll": "NAME=Payroll; npm run devping:ll:push:$NAME",
+    
+    "devping:_RUNALL:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:OtherIncomeExpenseConfig": "NAME=OtherIncomeExpenseConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:PayrollConfig": "NAME=PayrollConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:OvertimeConfig": "NAME=OvertimeConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:SocialSecurityConfig": "NAME=SocialSecurityConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:LeaveConfig": "NAME=LeaveConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:WelfareConfig": "NAME=WelfareConfig; npm run devping:ll:push:$NAME",
+
+    "devping:ll:all": "npm-run-all devping:ll:all:*",
+
+
     "convert:user": "node csv2json.js -i csv/user.csv -o data/user.json",
     "convert:p1": "node csv2json.js -i csv/p1.csv -o data/p1.json",
     "convert:p2": "node csv2json.js -i csv/p2.csv -o data/p2.json",
