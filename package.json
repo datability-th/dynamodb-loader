@@ -41,6 +41,9 @@
     "convert:prod_timelog":"node csv2json -i csv/prod_timelog.csv -o data/prod_timelog.json",
     "convert:prod_timereport":"node csv2json -i csv/prod_timereport.csv -o data/prod_timereport.json",
 
+    "convert:oneauth_data": "node csv2json -i csv/oneauth_data.csv -o data/oneauth_data.json",
+    "push:oneauth_data": "node main.js -i data/oneauth_data.json",
+
     "push:prod_approve": "node main.js -i data/prod_approve.json",
     "push:prod_config": "node main.js -i data/prod_config.json",
     "push:prod_main": "node main.js -i data/prod_main.json",
