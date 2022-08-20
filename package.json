@@ -4,6 +4,7 @@
   "description": "Loading JSON data to DynamoDB the simplest and consistent way!",
   "main": "main.js",
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "convert:employee": "node csv2json.js -i data/2022-03-08_InnoEmployee_R1.csv -o data/2022-03-08_InnoEmployee_R1.json -t -p -n Employee",
     "convert:position": "node csv2json.js -i data/2022-03-09_InnoPosition_R1.csv -o data/2022-03-09_InnoPosition_R1.json -t -p -n Position",
@@ -15,6 +16,97 @@
     "all:position": "npm run convert:position && npm run push:position",
     "all:department": "npm run convert:department && npm run push:department",
     "all": "npm-run-all all:*",
+
+    "_CONVERT": "================ CONVERT SECTION ==========================================",
+    "ll:convert:employee": "node csv2json.js -i data/2022-03-08_InnoEmployee_R1.csv -o data/2022-03-08_InnoEmployee_R1.json -t -p -n Employee",
+    "ll:convert:position": "node csv2json.js -i data/2022-03-09_InnoPosition_R1.csv -o data/2022-03-09_InnoPosition_R1.json -t -p -n Position",
+    "ll:convert:department": "node csv2json.js -i data/2022-03-09_InnoDepartment_R1.csv -o data/2022-03-09_InnoDepartment_R1.json -t -p -n Department",
+    
+
+    "_PUSH": "================ PUSH SECTION ==========================================",
+    "_PUSH:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "ll:push:employee": "STAGE=devknight; node main.js -i data/2022-03-08_InnoEmployee_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "ll:push:position": "STAGE=devknight; node main.js -i data/2022-03-09_InnoPosition_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "ll:push:department": "STAGE=devknight; node main.js -i data/2022-03-09_InnoDepartment_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "ll:push:Company": "STAGE=devknight; node main.js -i data/Company.json -t LinkLook-HRMainTable-$STAGE",
+    
+    "_PUSH:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "ll:push:Payroll": "STAGE=devknight; node main.js -i data/Payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+    
+    "_PUSH:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "ll:push:OtherIncomeExpenseConfig": "STAGE=devknight; node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "ll:push:PayrollConfig": "STAGE=devknight; node main.js -i data/PayrollConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "ll:push:OvertimeConfig": "STAGE=devknight; node main.js -i data/OvertimeConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "ll:push:SocialSecurityConfig": "STAGE=devknight; node main.js -i data/SocialSecurityConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "ll:push:LeaveConfig": "STAGE=devknight; node main.js -i data/LeaveConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "ll:push:WelfareConfig": "STAGE=devknight; node main.js -i data/WelfareConfig.json -t LinkLook-HRConfigTable-$STAGE",
+
+
+    "_RUNALL": "================ RUN ALL SECTION ==========================================",
+    "_RUNALL:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "ll:all:employee": "NAME=employee; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:position": "NAME=position; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:department": "NAME=department; npm run ll:convert:$NAME && npm run ll:push:$NAME",
+    "ll:all:Company": "NAME=Company; npm run ll:push:$NAME",
+
+    "_RUNALL:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "ll:all:Payroll": "NAME=Payroll; npm run ll:push:$NAME",
+    
+    "_RUNALL:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "ll:all:OtherIncomeExpenseConfig": "NAME=OtherIncomeExpenseConfig; npm run ll:push:$NAME",
+    "ll:all:PayrollConfig": "NAME=PayrollConfig; npm run ll:push:$NAME",
+    "ll:all:OvertimeConfig": "NAME=OvertimeConfig; npm run ll:push:$NAME",
+    "ll:all:SocialSecurityConfig": "NAME=SocialSecurityConfig; npm run ll:push:$NAME",
+    "ll:all:LeaveConfig": "NAME=LeaveConfig; npm run ll:push:$NAME",
+    "ll:all:WelfareConfig": "NAME=WelfareConfig; npm run ll:push:$NAME",
+
+    "ll:all": "npm-run-all ll:all:*",
+
+
+
+
+    "devping:_PUSH": "================ PUSH SECTION ==========================================",
+    "devping:_PUSH:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:employee": "STAGE=devping; node main.js -i data/2022-03-08_InnoEmployee_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:position": "STAGE=devping; node main.js -i data/2022-03-09_InnoPosition_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:department": "STAGE=devping; node main.js -i data/2022-03-09_InnoDepartment_R1.json -t LinkLook-HRMainTable-$STAGE",
+    "devping:ll:push:Company": "STAGE=devping; node main.js -i data/Company.json -t LinkLook-HRMainTable-$STAGE",
+    
+    "devping:_PUSH:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:Payroll": "STAGE=devping; node main.js -i data/Payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+    "push:test_prod_payroll": "STAGE=prod; node main.js -i data/prod_payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+
+    "devping:_PUSH:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:push:OtherIncomeExpenseConfig": "STAGE=devping; node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:PayrollConfig": "STAGE=devping; node main.js -i data/PayrollConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:OvertimeConfig": "STAGE=devping; node main.js -i data/OvertimeConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:SocialSecurityConfig": "STAGE=devping; node main.js -i data/SocialSecurityConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:LeaveConfig": "STAGE=devping; node main.js -i data/LeaveConfig.json -t LinkLook-HRConfigTable-$STAGE",
+    "devping:ll:push:WelfareConfig": "STAGE=devping; node main.js -i data/WelfareConfig.json -t LinkLook-HRConfigTable-$STAGE",
+
+
+    "devping:_RUNALL": "================ RUN ALL SECTION ==========================================",
+    "devping:_RUNALL:MAIN": "~~~~~~~~~~~~~~~~ Main Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:employee": "NAME=employee; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:position": "NAME=position; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:department": "NAME=department; npm run ll:convert:$NAME && npm run devping:ll:push:$NAME",
+    "devping:ll:all:Company": "NAME=Company; npm run devping:ll:push:$NAME",
+
+    "devping:_RUNALL:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:Payroll": "NAME=Payroll; npm run devping:ll:push:$NAME",
+    
+    "devping:_RUNALL:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
+    "devping:ll:all:OtherIncomeExpenseConfig": "NAME=OtherIncomeExpenseConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:PayrollConfig": "NAME=PayrollConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:OvertimeConfig": "NAME=OvertimeConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:SocialSecurityConfig": "NAME=SocialSecurityConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:LeaveConfig": "NAME=LeaveConfig; npm run devping:ll:push:$NAME",
+    "devping:ll:all:WelfareConfig": "NAME=WelfareConfig; npm run devping:ll:push:$NAME",
+
+    "devping:ll:all": "npm-run-all devping:ll:all:*",
+
+    
+
 
     "convert:user": "node csv2json.js -i csv/user.csv -o data/user.json",
     "convert:p1": "node csv2json.js -i csv/p1.csv -o data/p1.json",
@@ -104,9 +196,13 @@
     "all:top:p10": "npm run convert:p10 && npm run push:p10",
     "all:top:allproject": "npm-run-all all:top:p*",
     "all:top": "npm-run-all all:top:*",
-    "all:top:userlast": "npm run convert:userlast && npm run push:userlast",
-    "all:top:today_user": "npm run convert:today_user && npm run push:today_user"
 
+    "all:top:userlast": "npm run convert:userlast && npm run push:userlast",
+    "all:top:today_user": "npm run convert:today_user && npm run push:today_user",
+
+
+
+    "push:lloiec": "node main.js -i data/otherIncomeExpenseConfig.json"
 
   },
   "repository": {
