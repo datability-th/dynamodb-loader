@@ -21,6 +21,42 @@
     "ll:convert:employee": "node csv2json.js -i data/2022-03-08_InnoEmployee_R1.csv -o data/2022-03-08_InnoEmployee_R1.json -t -p -n Employee",
     "ll:convert:position": "node csv2json.js -i data/2022-03-09_InnoPosition_R1.csv -o data/2022-03-09_InnoPosition_R1.json -t -p -n Position",
     "ll:convert:department": "node csv2json.js -i data/2022-03-09_InnoDepartment_R1.csv -o data/2022-03-09_InnoDepartment_R1.json -t -p -n Department",
+
+    "TOP": "____________________________________ TOP VER ____________________________________",
+
+    "csv_approve": "node csv2json.js -i csv/fix_approve_null.csv -o data/inno_approve.json -t -p -n Approve",
+    "csv_Fixapprove": "node csv2json.js -i csv/fix_approve_Table.csv -o data/inno_Fix_approve_Table.json -t -p -n Approve",
+    "csv_FixapproveProd": "node csv2json.js -i csv/fix_approve_Table_prod.csv -o data/inno_Fix_approve_Table_prod.json -t -p -n Approve",
+    "csv_config": "node csv2json.js -i csv/fix_config.csv -o data/fix_config.json -t -p -n Config",
+    "csv_main": "node csv2json.js -i csv/inno_main.csv -o data/inno_main.json -t -p -n Main",
+    "csv_payroll": "node csv2json.js -i csv/inno_payroll.csv -o data/inno_payroll.json -t -p -n Payroll",
+    "csv_timelog": "node csv2json.js -i csv/inno_timelog.csv -o data/inno_timelog.json -t -p -n TimeAttendanceLog",
+    "csv_timereport": "node csv2json.js -i csv/inno_timereport.csv -o data/inno_timereport.json -t -p -n TimeAttendanceReport",
+    
+    "csv_fixOE_prod": "node csv2json.js -i csv/temporary_OE.csv -o data/temporary_OE.json -t -p -n Config",
+    "json_fixOE_prod": "STAGE=prod; node main.js -i data/temporary_OE.json -t LinkLook-HRConfigTable-$STAGE",
+
+    "json_approve": "STAGE=dev; node main.js -i data/inno_approve.json -t LinkLook-HRApproveTable-$STAGE",
+    "json_Fixapprove": "STAGE=dev; node main.js -i data/inno_Fix_approve_Table.json -t LinkLook-HRApproveTable-$STAGE",
+    "json_FixapproveProd": "STAGE=prod; node main.js -i data/inno_Fix_approve_Table_prod.json -t LinkLook-HRApproveTable-$STAGE",
+    "json_config": "STAGE=dev; node main.js -i data/fix_config.json -t LinkLook-HRConfigTable-$STAGE",
+    "json_main": "STAGE=dev; node main.js -i data/inno_main.json -t LinkLook-HRMainTable-$STAGE",
+    "json_payroll": "STAGE=dev; node main.js -i data/inno_payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+    "json_timelog": "STAGE=dev; node main.js -i data/inno_timelog.json -t LinkLook-HRTimeAttendanceLogTable-$STAGE",
+    "json_timereport": "STAGE=dev; node main.js -i data/inno_timereport.json -t LinkLook-HRTimeAttendanceReportTable-$STAGE",
+    "json_config_IncomExpense": "STAGE=dev; node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-$STAGE",
+
+    "json_oneauth": "STAGE=dev; node main.js -i data/inno_oneAuth.json -t OneAuthMainTable-$STAGE",
+
+    "TOP2": "____________________________________ CHANGE ENUM TO ID LEAVE ____________________________________",
+    "csv_mainLeave": "node csv2json.js -i csv/hr_main_leave.csv -o data/hr_main_leave.json -t -p -n Approve",
+    "json_mainLeave": "STAGE=dev; node main.js -i data/hr_main_leave.json -t LinkLook-HRMainTable-$STAGE",
+
+    "csv_mainLeave_prod": "node csv2json.js -i csv/hr_main_leave_prod.csv -o data/hr_main_leave_prod.json -t -p -n Main",
+    "json_mainLeave_prod": "STAGE=prod; node main.js -i data/hr_main_leave_prod.json -t LinkLook-HRMainTable-$STAGE",
+
+    
+
     
 
     "_PUSH": "================ PUSH SECTION ==========================================",
@@ -32,6 +68,7 @@
     
     "_PUSH:PAYROLL": "~~~~~~~~~~~~~~~~ PAYROLL Table ~~~~~~~~~~~~~~~~",
     "ll:push:Payroll": "STAGE=devknight; node main.js -i data/Payroll.json -t LinkLook-HRPayrollTable-$STAGE",
+    "tt_payroll_push_test": "STAGE=devpond; node main.js -i data/top_test_payroll.json -t LinkLook-HRPayrollTable-$STAGE",
     
     "_PUSH:CONFIG": "~~~~~~~~~~~~~~~~ CONFIG Table ~~~~~~~~~~~~~~~~",
     "ll:push:OtherIncomeExpenseConfig": "STAGE=devknight; node main.js -i data/OtherIncomeExpenseConfig.json -t LinkLook-HRConfigTable-$STAGE",

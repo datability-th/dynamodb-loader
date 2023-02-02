@@ -113,6 +113,9 @@ data/*
 !data/data.json
 
 # Postprocess Adapters
-adapter/*
-!adapter/postprocess.js
-!adapter/keyTransformer.js
+# adapter/*
+# !adapter/postprocess.js
+# !adapter/keyTransformer.js
+
+# CSV Files
+csv/*
