@@ -1,0 +1,105 @@
+[
+  {
+    "userId": "krw81yhaK6jJT",
+    "friendList": [
+      {
+        "nickname": "Sacho",
+        "userId": "krw82bmfXvL6N"
+      },
+      {
+        "nickname": "NTC",
+        "userId": "krw83dvskqHAw"
+      },
+      {
+        "nickname": "Naja",
+        "userId": "krw83npiymUFc"
+      },
+      {
+        "nickname": "Promporn",
+        "userId": "krw83wekeP33r"
+      },
+      {
+        "nickname": "GH884",
+        "userId": "krw844nsTGtQJ"
+      },
+      {
+        "nickname": "HiSpeed",
+        "userId": "kwqe8lhvJASLs"
+      }
+    ],
+    "password_hash": "$2a$10$VGfdK2cmFQmTxK7TJkODCOkK/WiYd0UkULTX8qgOy7JjK84IJVJx6",
+    "username": "innotechAdmin"
+  },
+  {
+    "userId": "krw83npiymUFc",
+    "password_hash": "$2a$10$qKZc9tkEJuVelbIoMbi.EeGMOWb7WJ7cnBMP/.Hjbl5A1t4zcM2Ha",
+    "username": "najaAdmin"
+  },
+  {
+    "userId": "kskn8evgHcJV8",
+    "friendList": [
+      {
+        "nickname": "ChangTraining",
+        "userId": "kspru0lbviSrB"
+      }
+    ],
+    "password_hash": "$2a$10$R3ZSPgkfEte.MOd0k6u8oeC0z8z0P/KKVsXGgyNLnuhdoIxoeMJju",
+    "username": "innotechTraining"
+  },
+  {
+    "userId": "kspru0lbviSrB",
+    "password_hash": "$2a$10$nVcEwW.yS9qLo9ETGnTuOupW1bho1gQJ.aMGGeTPoYVRm6zGLl7Qu",
+    "username": "changTraining"
+  },
+  {
+    "userId": "krw84g7n0Ai_g",
+    "password_hash": "$2a$10$nhhTrr/ZCMxB3oMW3GmoXOXgRtKpT0zb7OuokyNhj.nkwr5y/3UUy",
+    "username": "admin"
+  },
+  {
+    "userId": "kskn315ljamgQ",
+    "friendList": [
+      {
+        "nickname": "Chang Training",
+        "userId": "kspru0lbviSrB"
+      }
+    ],
+    "password_hash": "$2a$10$7V6JnNjVGMGaQp3ocGRenu3ZUcJIE52kBfJZ0fkcvA1skttIabDGS",
+    "username": "katC"
+  },
+  {
+    "userId": "krw82bmfXvL6N",
+    "password_hash": "$2a$10$hUseRhMiMwz0kStTNLTBTOe8Ipbz9B5z46nRsCVKZXaPIrZbsls9.",
+    "username": "sachoAdmin"
+  },
+  {
+    "userId": "ADMIN01",
+    "password_hash": "$2y$12$Ph7Ji3C8V54Via2aR8M2KOxhxA.SagA2lnpDc3v5VO/C0ZioddQUe",
+    "username": "knighth"
+  },
+  {
+    "userId": "krw844nsTGtQJ",
+    "password_hash": "$2a$10$Gdep6dcMNxDRdXUcnLV5R.f9/qe30kd090d9baPYiQ3i7lCJmqRjS",
+    "username": "gh884Admin"
+  },
+  {
+    "userId": "krw83dvskqHAw",
+    "password_hash": "$2a$10$VvScTfOtCP1P2pUVN6uEdeZLs.Lr3T5Pk5pqTA.2/eMaVQcgsM.Qa",
+    "username": "ntcAdmin"
+  },
+  {
+    "userId": "krvpx0wyjk8xy",
+    "password_hash": "$2a$10$SI1CbYJEqwZ3hvEGWVsWxO.UFR/A0hVtk35x3pB4qgEP32L5nYCxy",
+    "username": "ping"
+  },
+  {
+    "userId": "krw83wekeP33r",
+    "password_hash": "$2a$10$4vp5TsLJv0mueuZLdQeHbupGa9gsQpdGnsjcFoCHIB9KfwrNuIXB.",
+    "username": "prompornAdmin"
+  },
+  {
+    "userId": "kwqe8lhvJASLs",
+    "password_hash": "$2a$10$TZHJREfVzmuxnZ58DHetR.sirB5zyGnF0DkxyCxZV9Mpb6/jqCkRy",
+    "username": "hispeedAdmin"
+  }
+]

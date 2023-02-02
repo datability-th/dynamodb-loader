@@ -1,0 +1,26 @@
+[
+  {
+    "PK": "LINKLOOK|APPROVE_CONFIG",
+    "SK": "LINKLOOK|APPROVE_CONFIG",
+    "__typename": "ApproveConfig",
+    "LEAVE_REQUEST": {
+      "approveFlowtype": "CUSTOM",
+      "stepList": [{ "approveStepType": "EMPLOYEE", "employeeID": "1019" }]
+    },
+    "OT_REQUEST": {
+      "approveFlowtype": "CUSTOM",
+      "stepList": [
+        { "approveStepType": "EMPLOYEE", "employeeID": "1019" },
+        { "approveStepType": "EMPLOYEE", "employeeID": "1021" }
+      ]
+    },
+    "WELFARE_REQUEST": {
+      "approveFlowtype": "CUSTOM",
+      "stepList": [{ "approveStepType": "EMPLOYEE", "employeeID": "1019" }]
+    },
+    "WITHDRAW_REQUEST": {
+      "approveFlowtype": "CUSTOM",
+      "stepList": [{ "approveStepType": "EMPLOYEE", "employeeID": "1019" }]
+    }
+  }
+]

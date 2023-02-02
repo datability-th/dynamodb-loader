@@ -1,0 +1,44 @@
+[
+  {
+  "PK": "LINKLOOK|OVERTIME",
+  "SK": "OVERTIME",
+  "overtimeAfterMinute": 59,
+  "overtimeBeforeMinute": 59,
+  "overtimeDay": {
+   "HOLIDAY": {
+    "WORK": 1,
+    "OVERTIME": 3
+   },
+   "WEEKEND": {
+    "WORK": 2,
+    "OVERTIME": 3
+   },
+   "WORKDAY": {
+    "WORK": 0,
+    "OVERTIME": 1.5
+   }
+  },
+  "overtimeDayStatus": "ACTIVE",
+  "overtimeMonth": {
+   "HOLIDAY": {
+    "WORK": 1,
+    "OVERTIME": 3
+   },
+   "WEEKEND": {
+    "WORK": 1,
+    "OVERTIME": 3
+   },
+   "WORKDAY": {
+    "WORK": 0,
+    "OVERTIME": 1.5
+   }
+  },
+  "overtimeMonthStatus": "ACTIVE",
+  "overtimeMultiplyType": "MULTIPLY_PER_WAGE",
+  "overtimeRoundFloor": "FLOOR",
+  "overtimeRoundHour": "FULL_HOUR",
+  "overtimeRoundType": "ROUND",
+  "Type": "OVERTIME",
+  "__typename": "OvertimeConfig"
+ }
+]

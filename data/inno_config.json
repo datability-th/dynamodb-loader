@@ -1,0 +1,1068 @@
+[
+  {
+    "PK": "INNOTECH|OVERTIME",
+    "SK": "OVERTIME",
+    "overtimeAfterMinute": "59",
+    "overtimeBeforeMinute": "59",
+    "overtimeDay": {
+      "HOLIDAY": {
+        "OVERTIME": 3,
+        "WORK": 1
+      },
+      "WORKDAY": {
+        "OVERTIME": 1.5,
+        "WORK": 0
+      },
+      "WEEKEND": {
+        "OVERTIME": 3,
+        "WORK": 2
+      }
+    },
+    "overtimeDayStatus": "ACTIVE",
+    "overtimeMonth": {
+      "HOLIDAY": {
+        "OVERTIME": 3,
+        "WORK": 1
+      },
+      "WORKDAY": {
+        "OVERTIME": 1.5,
+        "WORK": 0
+      },
+      "WEEKEND": {
+        "OVERTIME": 3,
+        "WORK": 1
+      }
+    },
+    "overtimeMonthStatus": "ACTIVE",
+    "overtimeMultiplyType": "MULTIPLY_PER_WAGE",
+    "overtimeRoundFloor": "ROUND",
+    "overtimeRoundHour": "HALF_HOUR",
+    "overtimeRoundType": "ROUND",
+    "Type": "OVERTIME",
+    "__typename": "OvertimeConfig"
+  },
+  {
+    "PK": "INNOTECH|WELFARE",
+    "SK": "INNOTECH|WELFARE|WE001",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "income40Type": "I401",
+    "isActive": "true",
+    "isCompound": "false",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "name": "ค่าอาหาร",
+    "roundType": "NONE",
+    "__typename": "WelfareConfig",
+    "welfareID": "WE001",
+    "welfareQuotaList": [
+      {
+        "quotaUOM": "BAHT_PER_MONTH",
+        "workMonthExperience": 0,
+        "quota": 4400
+      }
+    ]
+  },
+  {
+    "PK": "INNOTECH|WELFARE",
+    "SK": "INNOTECH|WELFARE|WE002",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "income40Type": "I401",
+    "isActive": "true",
+    "isCompound": "false",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "name": "ค่าขนม",
+    "roundType": "NONE",
+    "__typename": "WelfareConfig",
+    "welfareID": "WE002",
+    "welfareQuotaList": [
+      {
+        "quotaUOM": "BAHT_PER_MONTH",
+        "workMonthExperience": 12,
+        "quota": 1000
+      }
+    ]
+  },
+  {
+    "PK": "DATABILITY|SHIFT_COLOR",
+    "SK": "SHIFT_COLOR",
+    "hexColorList": [
+      "#f98b8b"
+    ],
+    "Type": "SHIFT_COLOR",
+    "__typename": "SHIFT_COLOR"
+  },
+  {
+    "PK": "INNOTECH|DEFAULT_SHIFT",
+    "SK": "DEFAULT_SHIFT",
+    "shiftID": "667cd6e9-432a-4202-baba-664e0a73e5ee",
+    "Type": "DEFAULT_SHIFT",
+    "__typename": "DEFAULT_SHIFT"
+  },
+  {
+    "PK": "INNOTECH|HOLIDAY",
+    "SK": "HOLIDAY|41dfe94a-edb2-465f-bb5a-2fa3f753f119",
+    "holidayID": "41dfe94a-edb2-465f-bb5a-2fa3f753f119",
+    "holidayName": "แผนกขนส่ง",
+    "holidayYear": {
+      "2022": [
+        {
+          "date": "2022-04-06",
+          "description": "วันจักรี"
+        },
+        {
+          "date": "2022-05-02",
+          "description": "วันหยุดชดเชยวันแรงงานแห่งชาติ"
+        },
+        {
+          "date": "2022-05-04",
+          "description": "วันฉัตรมงคล"
+        },
+        {
+          "date": "2022-05-15",
+          "description": "วันวิสาขบูชา"
+        },
+        {
+          "date": "2022-10-13",
+          "description": "วันคล้ายวันสวรรคตของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดชบรมนาถบพิตร"
+        },
+        {
+          "date": "2022-12-05",
+          "description": "วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร และวันพ่อแห่งชาติ"
+        },
+        {
+          "date": "2022-05-13",
+          "description": "วันพืชมงคล"
+        },
+        {
+          "date": "2022-05-16",
+          "description": "วันหยุดชดเชยวันวิสาขบูชา"
+        },
+        {
+          "date": "2022-06-03",
+          "description": "Queen Suthida's Birthday"
+        },
+        {
+          "date": "2022-07-29",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-10-23",
+          "description": "วันปิยมหาราช"
+        },
+        {
+          "date": "2022-12-12",
+          "description": "วันหยุดชดเชยวันรัฐธรรมบูญ"
+        },
+        {
+          "date": "2022-12-25",
+          "description": "วันคริสต์มาส"
+        },
+        {
+          "date": "2022-12-30",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-05-01",
+          "description": "วันแรงงานแห่งชาติ"
+        },
+        {
+          "date": "2022-07-13",
+          "description": "วันอาสาฬหบูชา"
+        },
+        {
+          "date": "2022-07-28",
+          "description": "วันเฉลิมพระชนมพรรษา สมเด็จพระเจ้าอยู่หัวมหาวชิราลงกรณ บดินทรเทพยวรางกูร"
+        },
+        {
+          "date": "2022-08-12",
+          "description": "วันเฉลิมพระชนมพรรษา สมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ"
+        },
+        {
+          "date": "2022-10-14",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-01-03",
+          "description": "วันหยุดชดเชยวันขื้นปีใหม่"
+        },
+        {
+          "date": "2022-02-01",
+          "description": "วันตรุษจีน"
+        },
+        {
+          "date": "2022-04-13",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-04-15",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-07-14",
+          "description": "วันเข้าพรรษา"
+        },
+        {
+          "date": "2022-12-24",
+          "description": "วันคริสต์มาสอีฟ"
+        },
+        {
+          "date": "2022-12-31",
+          "description": "วันส่งท้ายปีเก่า"
+        },
+        {
+          "date": "2022-01-01",
+          "description": "วันขื้นปีใหม่"
+        },
+        {
+          "date": "2022-04-14",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-07-15",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-10-24",
+          "description": "วันหยุดชดเชยวันปิยมหาราช"
+        },
+        {
+          "date": "2022-12-10",
+          "description": "วันรัฐธรรมบูญ"
+        },
+        {
+          "date": "2022-03-18",
+          "description": "วันประจำบริษัท"
+        }
+      ]
+    },
+    "Type": "HOLIDAY",
+    "__typename": "Holiday"
+  },
+  {
+    "PK": "INNOTECH|HOLIDAY",
+    "SK": "HOLIDAY|669b5f1b-e126-4194-af96-d8c6e8ddeb71",
+    "holidayID": "669b5f1b-e126-4194-af96-d8c6e8ddeb71",
+    "holidayName": "สำนักงานใหญ่",
+    "holidayYear": {
+      "2022": [
+        {
+          "date": "2022-12-05",
+          "description": "วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร และวันพ่อแห่งชาติ"
+        },
+        {
+          "date": "2022-12-30",
+          "description": "วันสิ้นปี"
+        },
+        {
+          "date": "2022-02-01",
+          "description": "วันตรุษจีน"
+        },
+        {
+          "date": "2022-04-13",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-04-15",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-04-14",
+          "description": "วันสงกรานต์ (Beam Test)"
+        },
+        {
+          "date": "2022-01-01",
+          "description": "วันขึ้นปีใหม่"
+        },
+        {
+          "date": "2022-04-16",
+          "description": "วันหยุดต่อเนื่องสงกรานต์"
+        },
+        {
+          "date": "2022-06-03",
+          "description": "วันเฉลิมพระชนมพรรษา พระราชินี"
+        },
+        {
+          "date": "2022-06-04",
+          "description": "วันหยุดชดเชยวันแรงงานแห่งชาติ"
+        },
+        {
+          "date": "2022-07-28",
+          "description": "วันเฉลิมพระชนมพรรษา ร.10"
+        },
+        {
+          "date": "2022-08-12",
+          "description": "วันแม่แห่งชาติ"
+        },
+        {
+          "date": "2022-08-13",
+          "description": "ชดเชยวันปิยมหาราช"
+        },
+        {
+          "date": "2022-10-10",
+          "description": "วันออกพรรษา"
+        },
+        {
+          "date": "2022-12-31",
+          "description": "วันสิ้นปี"
+        }
+      ]
+    },
+    "Type": "HOLIDAY",
+    "__typename": "Holiday"
+  },
+  {
+    "PK": "INNOTECH|HOLIDAY",
+    "SK": "HOLIDAY|6c828908-fccb-48a9-a92f-3098a29f34ab",
+    "holidayID": "6c828908-fccb-48a9-a92f-3098a29f34ab",
+    "holidayName": "โรงงาน",
+    "holidayYear": {
+      "2022": [
+        {
+          "date": "2022-04-06",
+          "description": "วันจักรี"
+        },
+        {
+          "date": "2022-05-02",
+          "description": "วันหยุดชดเชยวันแรงงานแห่งชาติ"
+        },
+        {
+          "date": "2022-05-04",
+          "description": "วันฉัตรมงคล"
+        },
+        {
+          "date": "2022-05-15",
+          "description": "วันวิสาขบูชา"
+        },
+        {
+          "date": "2022-10-13",
+          "description": "วันคล้ายวันสวรรคตของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดชบรมนาถบพิตร"
+        },
+        {
+          "date": "2022-12-05",
+          "description": "วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร และวันพ่อแห่งชาติ"
+        },
+        {
+          "date": "2022-05-13",
+          "description": "วันพืชมงคล"
+        },
+        {
+          "date": "2022-05-16",
+          "description": "วันหยุดชดเชยวันวิสาขบูชา"
+        },
+        {
+          "date": "2022-06-03",
+          "description": "Queen Suthida's Birthday"
+        },
+        {
+          "date": "2022-07-29",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-10-23",
+          "description": "วันปิยมหาราช"
+        },
+        {
+          "date": "2022-12-12",
+          "description": "วันหยุดชดเชยวันรัฐธรรมบูญ"
+        },
+        {
+          "date": "2022-12-25",
+          "description": "วันคริสต์มาส"
+        },
+        {
+          "date": "2022-12-30",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-05-01",
+          "description": "วันแรงงานแห่งชาติ"
+        },
+        {
+          "date": "2022-07-13",
+          "description": "วันอาสาฬหบูชา"
+        },
+        {
+          "date": "2022-07-28",
+          "description": "วันเฉลิมพระชนมพรรษา สมเด็จพระเจ้าอยู่หัวมหาวชิราลงกรณ บดินทรเทพยวรางกูร"
+        },
+        {
+          "date": "2022-08-12",
+          "description": "วันเฉลิมพระชนมพรรษา สมเด็จพระนางเจ้าฯ พระบรมราชินีนาถ"
+        },
+        {
+          "date": "2022-10-14",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-01-03",
+          "description": "วันหยุดชดเชยวันขื้นปีใหม่"
+        },
+        {
+          "date": "2022-02-01",
+          "description": "วันตรุษจีน"
+        },
+        {
+          "date": "2022-04-13",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-04-15",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-07-14",
+          "description": "วันเข้าพรรษา"
+        },
+        {
+          "date": "2022-12-24",
+          "description": "วันคริสต์มาสอีฟ"
+        },
+        {
+          "date": "2022-12-31",
+          "description": "วันส่งท้ายปีเก่า"
+        },
+        {
+          "date": "2022-01-01",
+          "description": "วันขื้นปีใหม่"
+        },
+        {
+          "date": "2022-04-14",
+          "description": "วันสงกรานต์"
+        },
+        {
+          "date": "2022-07-15",
+          "description": "Bridge Public holiday"
+        },
+        {
+          "date": "2022-02-03",
+          "description": "วันตรุษจีน (วันที่ 3)"
+        },
+        {
+          "date": "2022-10-24",
+          "description": "วันหยุดชดเชยวันปิยมหาราช"
+        },
+        {
+          "date": "2022-12-10",
+          "description": "วันรัฐธรรมบูญ"
+        },
+        {
+          "date": "2022-12-27",
+          "description": ""
+        },
+        {
+          "date": "2022-11-22",
+          "description": "วันหยุดเฉพาะโรงงาน"
+        }
+      ]
+    },
+    "Type": "HOLIDAY",
+    "__typename": "Holiday"
+  },
+  {
+    "PK": "INNOTECH|HOLIDAY",
+    "SK": "HOLIDAY|83394cba-7216-455e-8800-81768a7ed11e",
+    "holidayID": "83394cba-7216-455e-8800-81768a7ed11e",
+    "holidayName": "วันหยุดแผนกการตลาด",
+    "holidayYear": {
+      "2022": [
+        {
+          "date": "2022-11-23",
+          "description": ""
+        },
+        {
+          "date": "2022-12-23",
+          "description": ""
+        }
+      ]
+    },
+    "Type": "HOLIDAY",
+    "__typename": "Holiday"
+  },
+  {
+    "PK": "INNOTECH|PAYROLL",
+    "SK": "PAYROLL",
+    "period1Day": "10",
+    "periodCount": "TWO",
+    "periodStart": "26",
+    "resetLeaveDay": "01-01",
+    "roundType": "FLOOR",
+    "Type": "PAYROLL",
+    "__typename": "PayrollConfig",
+    "workingDayCount": "N30",
+    "workingDayCountNewEmployee": "N30",
+    "workingHourDivisor": "N8"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1001",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1001",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "true",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "false",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "false",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 30,
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 30
+      }
+    ],
+    "name": "ลาป่วย",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1002",
+    "employeeAllowSexList": [
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1002",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "true",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveBeforehandDay": "30",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 45,
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 90
+      }
+    ],
+    "name": "ลาคลอด",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1003",
+    "employeeAllowSexList": [
+      "MALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1003",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "false",
+    "isLeaveOnce": "true",
+    "isLookupNotWorkday": "true",
+    "leaveAmountType": "WORK_LIFE",
+    "leaveBeforehandDay": "30",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 45,
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 90
+      }
+    ],
+    "name": "ลาบวช",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1004",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1004",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "true",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveBeforehandDay": "30",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 2,
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 2
+      }
+    ],
+    "name": "ลาทำหมัน",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1005",
+    "employeeAllowSexList": [
+      "MALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1005",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "true",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveBeforehandDay": "30",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 5,
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 5
+      }
+    ],
+    "name": "ลารับราชการทหาร",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1006",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1006",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "true",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "true",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveBeforehandDay": "3",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 4,
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 4
+      }
+    ],
+    "name": "ลากิจ",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC1007",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC1007",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "true",
+    "isLeaveCompound": "true",
+    "isLeaveDiligent": "false",
+    "isLeaveOnce": "false",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveBeforehandDay": "3",
+    "leaveCompoundType": "HALF",
+    "leaveConfigType": "BY_LAW",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 6,
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 6
+      },
+      {
+        "maxLeavePaidDay": 8,
+        "workMonthExperience": 72,
+        "quotaLeaveDay": 8
+      },
+      {
+        "maxLeavePaidDay": 10,
+        "workMonthExperience": 120,
+        "quotaLeaveDay": 10
+      }
+    ],
+    "maxLeaveCompound": "8",
+    "name": "ลาพักร้อน",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|LEAVE_CONFIG",
+    "SK": "INNOTECH|LEAVE_CONFIG|LC2001",
+    "employeeAllowSexList": [
+      "MALE",
+      "FEMALE"
+    ],
+    "employeeAllowTypeList": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "id": "LC2001",
+    "isActive": "true",
+    "isCountProbation": "false",
+    "isExceedQuota": "false",
+    "isLeaveAfterhand": "false",
+    "isLeaveBeforehand": "false",
+    "isLeaveCompound": "false",
+    "isLeaveDiligent": "false",
+    "isLeaveOnce": "true",
+    "isLookupNotWorkday": "false",
+    "leaveAmountType": "PER_YEAR",
+    "leaveConfigType": "BY_COMPANY",
+    "leaveQuotaList": [
+      {
+        "maxLeavePaidDay": 7,
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 7
+      }
+    ],
+    "name": "ลาถึงแก่กรรมของครอบครัว",
+    "__typename": "LeaveConfig"
+  },
+  {
+    "PK": "INNOTECH|SOCIAL_SECURITY",
+    "SK": "SOCIAL_SECURITY",
+    "dependencies": [
+      "A",
+      "C1",
+      "D|ค่าตำแหน่ง"
+    ],
+    "employeePercent": "5",
+    "employerPercent": "5",
+    "status": "ACTIVE",
+    "Type": "SOCIAL_SECURITY",
+    "__typename": "SocialSecurityConfig"
+  },
+  {
+    "PK": "INNOTECH|ATTENDANCE_CONFIG",
+    "SK": "ATTENDANCE_CONFIG",
+    "breakEarlyPaidRate": "0.5",
+    "breakEarlyPaidType": "MULTIPLE",
+    "breakOvertimeDedcutType": "MULTIPLE",
+    "breakOvertimeDeductRate": "0.5",
+    "breakOvertimeQuotaMinute": "10",
+    "breakOvertimeQuotaType": "MINUTE_PER_DAY",
+    "breakOvertimeType": "NOT_EXCEED",
+    "isBreakEarly": "true",
+    "isBreakEarlyDiligent": "true",
+    "isBreakEarlyPaid": "true",
+    "isBreakOvertime": "true",
+    "isBreakOvertimeDeduct": "true",
+    "isBreakOvertimeDiligent": "true",
+    "isWorkInEarly": "true",
+    "isWorkInEarlyDiligent": "true",
+    "isWorkInEarlyPaid": "true",
+    "isWorkInLate": "true",
+    "isWorkInLateDeduct": "true",
+    "isWorkInLateDiligent": "true",
+    "isWorkOutEarly": "true",
+    "isWorkOutEarlyDeduct": "true",
+    "isWorkOutEarlyDiligent": "true",
+    "isWorkOutLate": "true",
+    "isWorkOutLateDiligent": "true",
+    "isWorkOutLatePaid": "true",
+    "isWorkOutLatePaidRate": "0.5",
+    "isWorkOutLatePaidType": "MULTIPLE",
+    "maxBreakEarlyMinute": "15",
+    "maxBreakOvertimeMinute": "30",
+    "maxWorkInEarlyMinute": "15",
+    "maxWorkInLateMinute": "50",
+    "maxWorkInLateType": "NOT_EXCEED",
+    "maxWorkOutEarlyMinute": "60",
+    "maxWorkOutLateMinute": "15",
+    "__typename": "ATTENDANCE_CONFIG",
+    "workInEarlyPaidRate": "0.5",
+    "workInEarlyPaidType": "MULTIPLE",
+    "workInLateDeductRate": "0.5",
+    "workInLateDeductType": "MULTIPLE",
+    "workInLateQuotaMinute": "30",
+    "workInLateQuotaType": "MINUTE_PER_DAY",
+    "workOutEarlyDeductRate": "0.5",
+    "workOutEarlyDeductType": "MULTIPLE",
+    "WorkOutEarlyQuotaMinute": "50",
+    "WorkOutEarlyQuotaType": "MINUTE_PER_DAY",
+    "workOutEarlyType": "NOT_EXEED",
+    "workOutLateQuotaType": "MINUTE_PER_DAY"
+  },
+  {
+    "PK": "INNOTECH|SHIFT_COLOR",
+    "SK": "SHIFT_COLOR",
+    "hexColorList": [
+      "#7d2c2c",
+      "#00ff04",
+      "#29b027",
+      "#c36565"
+    ],
+    "Type": "SHIFT_COLOR",
+    "__typename": "SHIFT_COLOR"
+  },
+  {
+    "PK": "INNOTECH|SHIFT",
+    "SK": "SHIFT|667cd6e9-432a-4202-baba-664e0a73e5ee",
+    "breakPolicy": [
+      {
+        "dayList": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "timeList": [
+          {
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "isScanEnd": true,
+            "isScanStart": false
+          }
+        ]
+      }
+    ],
+    "employeeType": [
+      "FULLTIME_MONTH",
+      "FULLTIME_DAY"
+    ],
+    "shiftColorIndex": "1",
+    "shiftID": "667cd6e9-432a-4202-baba-664e0a73e5ee",
+    "shiftName": "Shift 1",
+    "Type": "SHIFT",
+    "__typename": "SHIFT",
+    "workDayPolicy": [
+      {
+        "dayList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "timeList": [
+          {
+            "startTime": "08:00",
+            "endTime": "17:00",
+            "isScanEnd": true,
+            "isScanStart": true
+          }
+        ]
+      },
+      {
+        "dayList": [
+          6
+        ],
+        "timeList": [
+          {
+            "startTime": "08:00",
+            "endTime": "15:00",
+            "isScanEnd": true,
+            "isScanStart": true
+          }
+        ]
+      }
+    ],
+    "workType": "SAME_DAY"
+  },
+  {
+    "PK": "INNOTECH|DEFAULT_HOLIDAY",
+    "SK": "DEFAULT_HOLIDAY",
+    "holidayID": "669b5f1b-e126-4194-af96-d8c6e8ddeb71",
+    "Type": "DEFAULT_HOLIDAY",
+    "__typename": "DEFAULT_HOLIDAY"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "EXPENSE|EX001",
+    "id": "EX001",
+    "incomeExpenseType": "EXPENSE",
+    "incomeOrExpense": "EXPENSE",
+    "name": "ค่าปรับ",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "VARIABLE"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "EXPENSE|EX002",
+    "id": "EX002",
+    "incomeExpenseType": "EXPENSE",
+    "incomeOrExpense": "EXPENSE",
+    "name": "รายการหักอื่น",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "VARIABLE"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "EXPENSE|FU001",
+    "id": "FU001",
+    "incomeExpenseType": "FUND",
+    "incomeOrExpense": "EXPENSE",
+    "name": "หุ้น",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "FIXED"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "EXPENSE|SS",
+    "id": "SS",
+    "incomeExpenseType": "AUTO",
+    "incomeOrExpense": "EXPENSE",
+    "name": "ประกันสังคม",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "VARIABLE"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "INCOME|IN001",
+    "id": "IN001",
+    "income40Type": "I402",
+    "incomeExpenseType": "INCOME",
+    "incomeOrExpense": "INCOME",
+    "name": "ค่าครองชีพ",
+    "roundType": "FLOOR",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "FIXED"
+  },
+  {
+    "PK": "INNOTECH|INCOME_EXPENSE",
+    "SK": "INCOME|IN002",
+    "id": "IN002",
+    "income40Type": "I402",
+    "incomeExpenseType": "INCOME",
+    "incomeOrExpense": "INCOME",
+    "name": "ค่าคอมมิชชั่น",
+    "roundType": "FLOOR",
+    "status": "ACTIVE",
+    "Type": "INCOME_EXPENSE",
+    "__typename": "OtherIncomeOrExpenseConfigItem",
+    "variableOrFixed": "VARIABLE"
+  },
+  {
+    "PK": "DATABILITY|SHIFT",
+    "SK": "SHIFT|04b1eb5e-9746-4143-8772-e5d51a8fe448",
+    "breakPolicy": [
+      {
+        "dayList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "timeList": [
+          {
+            "startTime": "12:00",
+            "isScanStart": true,
+            "isScanEnd": true,
+            "endTime": "13:00"
+          }
+        ],
+        "totalHours": 0
+      }
+    ],
+    "employeeType": [
+      "FULLTIME_MONTH"
+    ],
+    "shiftColorIndex": "0",
+    "shiftID": "04b1eb5e-9746-4143-8772-e5d51a8fe448",
+    "shiftName": "Shift2",
+    "Type": "SHIFT",
+    "__typename": "Shift",
+    "workDayPolicy": [
+      {
+        "dayList": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "timeList": [
+          {
+            "startTime": "09:00",
+            "isScanStart": true,
+            "isScanEnd": true,
+            "endTime": "18:00"
+          }
+        ],
+        "totalHours": 0
+      }
+    ],
+    "workType": "SAME_DAY"
+  }
+]

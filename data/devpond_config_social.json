@@ -1,0 +1,12 @@
+[
+    {
+        "PK": "LINKLOOK|SOCIAL_SECURITY",
+        "SK": "SOCIAL_SECURITY",
+        "Type": "SOCIAL_SECURITY",
+        "__typename": "SocialSecurityConfig",
+        "status": "ACTIVE",
+        "employeePercent": "5",
+        "employerPercent": "5",
+        "dependencies": ["A", "C1", "D|ค่าตำแหน่ง"]
+    }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "PK": "LINKLOOK|WELFARE",
+    "SK": "LINKLOOK|WELFARE|WE001",
+    "__typename": "WelfareConfig",
+    "welfareID": "WE001",
+    "name": "ค่าอาหาร",
+    "isActive": true,
+    "income40Type": "I401",
+    "roundType": "NONE",
+
+    "isCountProbation": false,
+    "isCompound": false,
+    "isExceedQuota": false,
+
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "welfareQuotaList": [
+      {
+        "workMonthExperience": 0,
+        "quota": 4400,
+        "quotaUOM": "BAHT_PER_MONTH"
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|WELFARE",
+    "SK": "LINKLOOK|WELFARE|WE002",
+    "__typename": "WelfareConfig",
+    "welfareID": "WE002",
+    "name": "ค่าขนม",
+    "isActive": true,
+    "income40Type": "I401",
+    "roundType": "NONE",
+
+    "isCountProbation": false,
+    "isCompound": false,
+    "isExceedQuota": false,
+
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "welfareQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quota": 1000,
+        "quotaUOM": "BAHT_PER_MONTH"
+      }
+    ]
+  }
+]

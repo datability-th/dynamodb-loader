@@ -1,0 +1,79 @@
+[
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "INCOME|IN001",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "id": "IN001",
+        "name": "ค่าครองชีพ",
+        "status": "ACTIVE",
+        "roundType": "FLOOR",
+        "variableOrFixed": "FIXED",
+        "income40Type": "I402"
+    },
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "INCOME|IN002",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "id": "IN002",
+        "name": "ค่าคอมมิชชั่น",
+        "status": "ACTIVE",
+        "roundType": "FLOOR",
+        "variableOrFixed": "VARIABLE",
+        "income40Type": "I402"
+    },
+    
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "EXPENSE|EX001",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "id": "EX001",
+        "name": "ค่าปรับ",
+        "status": "ACTIVE",
+        "variableOrFixed": "VARIABLE"
+    },
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "EXPENSE|EX002",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "id": "EX002",
+        "name": "รายการหักอื่น",
+        "status": "ACTIVE",
+        "variableOrFixed": "VARIABLE"
+    },
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "EXPENSE|FU001",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "FUND",
+        "incomeOrExpense": "EXPENSE",
+        "id": "FU001",
+        "name": "หุ้น",
+        "status": "ACTIVE",
+        "variableOrFixed": "FIXED"
+    },
+    {
+        "PK": "LINKLOOK|INCOME_EXPENSE",
+        "SK": "EXPENSE|SS",
+        "Type": "INCOME_EXPENSE",
+        "__typename": "OtherIncomeOrExpenseConfigItem",
+        "incomeExpenseType": "AUTO",
+        "incomeOrExpense": "EXPENSE",
+        "id": "SS",
+        "name": "ประกันสังคม",
+        "status": "ACTIVE",
+        "variableOrFixed": "VARIABLE"
+    }
+]

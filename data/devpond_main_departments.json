@@ -1,0 +1,233 @@
+[
+  {
+    "id": "1",
+    "departmentName": "เชื่อม/เจียร",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|1",
+    "SK": "DEPARTMENT|1",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "2",
+    "departmentName": "ล้างงาน",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|2",
+    "SK": "DEPARTMENT|2",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "3",
+    "departmentName": "ประกอบ 1",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|3",
+    "SK": "DEPARTMENT|3",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "4",
+    "departmentName": "แม่บ้าน",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|4",
+    "SK": "DEPARTMENT|4",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "5",
+    "departmentName": "เชื่อม",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|5",
+    "SK": "DEPARTMENT|5",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "6",
+    "departmentName": "พ่นสี",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|6",
+    "SK": "DEPARTMENT|6",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "7",
+    "departmentName": "ประกอบ 2",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|7",
+    "SK": "DEPARTMENT|7",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "8",
+    "departmentName": "ขนส่ง",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|8",
+    "SK": "DEPARTMENT|8",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "9",
+    "departmentName": "ช่างซ่อมบำรุง",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|9",
+    "SK": "DEPARTMENT|9",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "10",
+    "departmentName": "CNC",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|10",
+    "SK": "DEPARTMENT|10",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "11",
+    "departmentName": "ออกแบบ",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|11",
+    "SK": "DEPARTMENT|11",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "12",
+    "departmentName": "สโตร์",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|12",
+    "SK": "DEPARTMENT|12",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "13",
+    "departmentName": "ล้าง",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|13",
+    "SK": "DEPARTMENT|13",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "14",
+    "departmentName": "พับ",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|14",
+    "SK": "DEPARTMENT|14",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "15",
+    "departmentName": "สโตว์/คลังสินค้า",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|15",
+    "SK": "DEPARTMENT|15",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "16",
+    "departmentName": "บัญชี",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|16",
+    "SK": "DEPARTMENT|16",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "17",
+    "departmentName": "ผู้จัดการโรงงาน",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|17",
+    "SK": "DEPARTMENT|17",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "18",
+    "departmentName": "จัดซื้อ/จัดจ้าง",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|18",
+    "SK": "DEPARTMENT|18",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "19",
+    "departmentName": "ผลิต",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|19",
+    "SK": "DEPARTMENT|19",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "20",
+    "departmentName": "ฝ่ายขาย",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|20",
+    "SK": "DEPARTMENT|20",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "21",
+    "departmentName": "ธุรการ/บุคคล",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|21",
+    "SK": "DEPARTMENT|21",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "22",
+    "departmentName": "นักศึกษาฝึกงาน",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|21",
+    "SK": "DEPARTMENT|21",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  },
+  {
+    "id": "23",
+    "departmentName": "เชื่อม/เจาะ",
+    "Type": "Department",
+    "__typename": "Department",
+    "PK": "DEPARTMENT|21",
+    "SK": "DEPARTMENT|21",
+    "createdAt": "2022-03-11T10:28:02.874Z",
+    "updatedAt": "2022-03-11T10:28:02.874Z"
+  }
+
+]

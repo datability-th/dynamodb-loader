@@ -1,0 +1,16 @@
+[
+    {
+        "PK": "LINKLOOK|PAYROLL",
+        "SK": "PAYROLL",
+        "Type": "PAYROLL",
+        "__typename": "PayrollConfig",
+        "periodStart": 26,
+        "periodCount": "TWO",
+        "period1Day": 10,
+        "workingDayCount": "N30",
+        "workingDayCountNewEmployee": "N30",
+        "resetLeaveDay": "01-01",
+        "workingHourDivisor": "N8",
+        "roundType": "FLOOR"
+    }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "positionName": "เจ้าหน้าที่ประจำแผนก",
+    "Type": "Position",
+    "__typename": "Position",
+    "PK": "POSITION|1",
+    "SK": "POSITION|1",
+    "createdAt": "2022-03-11T10:28:01.947Z",
+    "updatedAt": "2022-03-11T10:28:01.947Z"
+  },
+  {
+    "id": "2",
+    "positionName": "ผู้จัดการโรงงาน",
+    "Type": "Position",
+    "__typename": "Position",
+    "PK": "POSITION|2",
+    "SK": "POSITION|2",
+    "createdAt": "2022-03-11T10:28:01.947Z",
+    "updatedAt": "2022-03-11T10:28:01.947Z"
+  },
+  {
+    "id": "3",
+    "positionName": "หัวหน้าแผนก",
+    "Type": "Position",
+    "__typename": "Position",
+    "PK": "POSITION|3",
+    "SK": "POSITION|3",
+    "createdAt": "2022-03-11T10:28:01.947Z",
+    "updatedAt": "2022-03-11T10:28:01.947Z"
+  },
+  {
+    "id": "4",
+    "positionName": "หัวหน้าประจำแผนก",
+    "Type": "Position",
+    "__typename": "Position",
+    "PK": "POSITION|4",
+    "SK": "POSITION|4",
+    "createdAt": "2022-03-11T10:28:01.947Z",
+    "updatedAt": "2022-03-11T10:28:01.947Z"
+  },
+  {
+    "id": "5",
+    "positionName": "นักศึกษาฝึกงาน",
+    "Type": "Position",
+    "__typename": "Position",
+    "PK": "POSITION|5",
+    "SK": "POSITION|5",
+    "createdAt": "2022-03-11T10:28:01.947Z",
+    "updatedAt": "2022-03-11T10:28:01.947Z"
+  }
+]

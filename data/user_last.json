@@ -1,0 +1,289 @@
+[
+  {
+    "userId": "krw81yhaK6jJT",
+    "customAttrs": {
+      "role": "customer"
+    },
+    "friendList": [
+      {
+        "nickname": "Sacho",
+        "userId": "krw82bmfXvL6N"
+      },
+      {
+        "nickname": "NTC",
+        "userId": "krw83dvskqHAw"
+      },
+      {
+        "nickname": "Naja",
+        "userId": "krw83npiymUFc"
+      },
+      {
+        "nickname": "Promporn",
+        "userId": "krw83wekeP33r"
+      },
+      {
+        "nickname": "GH884",
+        "userId": "krw844nsTGtQJ"
+      },
+      {
+        "nickname": "HiSpeed",
+        "userId": "kwqe8lhvJASLs"
+      }
+    ],
+    "password_hash": "$2a$10$VGfdK2cmFQmTxK7TJkODCOkK/WiYd0UkULTX8qgOy7JjK84IJVJx6",
+    "username": "innotechAdmin"
+  },
+  {
+    "userId": "top",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "isSafetyPassport": "true",
+    "myWorkTechnicianJobType": [
+      "Carpenter",
+      "Electrician",
+      "Installer"
+    ],
+    "safetyPassport": [
+      {
+        "safetyPassportType": "AIS_C",
+        "safetyPassportStatus": "ACCEPT"
+      },
+      {
+        "safetyPassportType": "AIS_E",
+        "safetyPassportStatus": "ACCEPT"
+      },
+      {
+        "safetyPassportType": "AIS_H",
+        "safetyPassportStatus": "ACCEPT"
+      }
+    ],
+    "technicianJobType": [
+      "Carpenter",
+      "Electrician",
+      "Painter"
+    ],
+    "username": "changtop"
+  },
+  {
+    "userId": "l14o2199Fblb2",
+    "isVerification": "false",
+    "myWorkDescription": "ประสบการณ์การขายขำตลอด 50 ปี",
+    "myWorkFileAttachment": [
+      "tingJa.exe"
+    ],
+    "myWorkImageList": [
+      "img_01.com"
+    ],
+    "myWorkserviceProvince": [
+      "BANGKOK"
+    ],
+    "myWorkserviceRegion": [
+      "CENTRAL"
+    ],
+    "myWorkTeamName": "บริษัท จ่าม๊ะจ๊ะทิงจา จำกัด",
+    "myWorkTechnicianJobType": [
+      "Painter",
+      "Carpenter",
+      "Mechanic",
+      "Plumber"
+    ],
+    "password_hash": "$2b$10$y6Yft2aEioi1INK2y53UnO6ctx6ptRxd5fST7FLoOts9nt3jj5pSW",
+    "technicianList": [
+      {
+        "userId": "l14ck2tvfcqwo"
+      }
+    ],
+    "username": "nineManopeiei"
+  },
+  {
+    "userId": "krw83npiymUFc",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$qKZc9tkEJuVelbIoMbi.EeGMOWb7WJ7cnBMP/.Hjbl5A1t4zcM2Ha",
+    "username": "najaAdmin"
+  },
+  {
+    "userId": "l14c4o61Bkus5",
+    "addressDetail": "77/7 bang-bor Panompen Amnat-Charoen",
+    "companyBranch": "สาขา ทองหล่อเท่ห์",
+    "companyName": "บริษัท ทดสอบนิติบุคคล น๊จ๊ะ",
+    "coordinatorAddress": "Chonburi",
+    "coordinatorName": "มิสเตอร์ ขำมิน",
+    "coordinatorPersonalID": "0257441954122",
+    "coordinatorPhone": "021515154",
+    "district": "Panompen",
+    "email": "Lorthay@lice.com",
+    "isVerification": "false",
+    "password_hash": "$2b$10$s.mzuSUjL6PTPuNYaCMw2euy7wigwBCZJgaKBew3.X..VNcSmeNuq",
+    "phone": "0074144424",
+    "province": "AMNAT_CHAROEN",
+    "subDistrict": "Bang-Bor",
+    "taxID": "18496262",
+    "username": "Mr.NitiBukkon",
+    "userType": "JURISTIC",
+    "zipCode": "17441"
+  },
+  {
+    "userId": "kskn8evgHcJV8",
+    "customAttrs": {
+      "role": "customer"
+    },
+    "friendList": [
+      {
+        "nickname": "ChangTraining",
+        "userId": "kspru0lbviSrB"
+      }
+    ],
+    "password_hash": "$2a$10$R3ZSPgkfEte.MOd0k6u8oeC0z8z0P/KKVsXGgyNLnuhdoIxoeMJju",
+    "username": "innotechTraining"
+  },
+  {
+    "userId": "l14ck2tvfcqwo",
+    "addressDetail": "on the floor",
+    "birthDate": "1999-01-01",
+    "district": "PhaRamKao",
+    "email": "Helloo@hot.com",
+    "emergencyContact": {
+      "firstName": "Namo",
+      "lastName": "Tadsar",
+      "phone": "911",
+      "relation": "Brother"
+    },
+    "firstName": "โรเบิร์ด",
+    "gender": "MALE",
+    "isSafetyPassport": "true",
+    "isVerification": "false",
+    "lastName": "ดาวน์นี่คอมฟอร์ท",
+    "nickName": "ลุงโทนี่",
+    "password_hash": "$2b$10$4pKg9nmrPll1EYaUxz/.Be.M2YFMVHhHQZ4L942GAeJFxTfrvZFKC",
+    "personalID": "555555",
+    "personalRelation": "SINGLE",
+    "phone": "1991",
+    "province": "BANGKOK",
+    "safetyPassport": [
+      {
+        "safetyPassportType": "AIS_G",
+        "safetyPassportStatus": "PENDING",
+        "safetyPassportFileAttachment": [
+          "cer_ais_g.pdf"
+        ]
+      },
+      {
+        "safetyPassportType": "AIS_E",
+        "safetyPassportFileAttachment": [
+          "cer_ais_e.pdf"
+        ]
+      }
+    ],
+    "serviceProvince": [
+      "BANGKOK",
+      "PATHUM_THANI"
+    ],
+    "serviceRegion": [
+      "CENTRAL",
+      "EASTERN"
+    ],
+    "subDistrict": "Sukhothai",
+    "technicianJobType": [
+      "Carpenter",
+      "Electrician",
+      "Painter"
+    ],
+    "username": "Mr.Person",
+    "userType": "PERSON",
+    "zipCode": "14521"
+  },
+  {
+    "userId": "kspru0lbviSrB",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$nVcEwW.yS9qLo9ETGnTuOupW1bho1gQJ.aMGGeTPoYVRm6zGLl7Qu",
+    "technicianList": [
+      {
+        "userId": "top"
+      }
+    ],
+    "username": "changTraining"
+  },
+  {
+    "userId": "krw84g7n0Ai_g",
+    "customAttrs": {
+      "role": "admin"
+    },
+    "password_hash": "$2a$10$nhhTrr/ZCMxB3oMW3GmoXOXgRtKpT0zb7OuokyNhj.nkwr5y/3UUy",
+    "username": "admin"
+  },
+  {
+    "userId": "kskn315ljamgQ",
+    "customAttrs": {
+      "role": "customer"
+    },
+    "friendList": [
+      {
+        "nickname": "Chang Training",
+        "userId": "kspru0lbviSrB"
+      }
+    ],
+    "password_hash": "$2a$10$7V6JnNjVGMGaQp3ocGRenu3ZUcJIE52kBfJZ0fkcvA1skttIabDGS",
+    "username": "katC"
+  },
+  {
+    "userId": "krw82bmfXvL6N",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$hUseRhMiMwz0kStTNLTBTOe8Ipbz9B5z46nRsCVKZXaPIrZbsls9.",
+    "username": "sachoAdmin"
+  },
+  {
+    "userId": "ADMIN01",
+    "customAttrs": {
+      "role": "admin"
+    },
+    "password_hash": "$2y$12$Ph7Ji3C8V54Via2aR8M2KOxhxA.SagA2lnpDc3v5VO/C0ZioddQUe",
+    "username": "knighth"
+  },
+  {
+    "userId": "krw844nsTGtQJ",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$Gdep6dcMNxDRdXUcnLV5R.f9/qe30kd090d9baPYiQ3i7lCJmqRjS",
+    "username": "gh884Admin"
+  },
+  {
+    "userId": "krw83dvskqHAw",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$VvScTfOtCP1P2pUVN6uEdeZLs.Lr3T5Pk5pqTA.2/eMaVQcgsM.Qa",
+    "username": "ntcAdmin"
+  },
+  {
+    "userId": "krvpx0wyjk8xy",
+    "customAttrs": {
+      "role": "admin"
+    },
+    "password_hash": "$2a$10$SI1CbYJEqwZ3hvEGWVsWxO.UFR/A0hVtk35x3pB4qgEP32L5nYCxy",
+    "username": "ping"
+  },
+  {
+    "userId": "krw83wekeP33r",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$4vp5TsLJv0mueuZLdQeHbupGa9gsQpdGnsjcFoCHIB9KfwrNuIXB.",
+    "username": "prompornAdmin"
+  },
+  {
+    "userId": "kwqe8lhvJASLs",
+    "customAttrs": {
+      "role": "technician"
+    },
+    "password_hash": "$2a$10$TZHJREfVzmuxnZ58DHetR.sirB5zyGnF0DkxyCxZV9Mpb6/jqCkRy",
+    "username": "hispeedAdmin"
+  }
+]

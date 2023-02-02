@@ -1,0 +1,247 @@
+[
+  {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-01|0981b530-db43-11ec-b14a-956f5c13839e",
+    "createdAt": "2022-05-25T02:26:07.518Z",
+    "date": "2022-05-01",
+    "dayType": "WORKDAY",
+    "employeeID": "0981b530-db43-11ec-b14a-956f5c13839e",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-01T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-01T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-01T08:00:00.000Z",
+    "scanOut": "2022-05-01T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "OVERTIME",
+    "updatedAt": "2022-05-25T02:26:07.518Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-01T17:00:00.000Z",
+      "startedAt": "2022-05-01T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-01|5a146fe0-d0f0-11ec-ae64-4bba1e1a4805",
+    "createdAt": "2022-05-25T02:37:56.509Z",
+    "date": "2022-05-01",
+    "dayType": "WORKDAY",
+    "employeeID": "5a146fe0-d0f0-11ec-ae64-4bba1e1a4805",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-01T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-01T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-01T08:00:00.000Z",
+    "scanOut": "2022-05-01T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "ATTENDANCE",
+    "updatedAt": "2022-05-25T02:37:56.509Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-01T17:00:00.000Z",
+      "startedAt": "2022-05-01T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-02|0981b530-db43-11ec-b14a-956f5c13839e",
+    "createdAt": "2022-05-25T02:26:55.258Z",
+    "date": "2022-05-02",
+    "dayType": "WORKDAY",
+    "employeeID": "0981b530-db43-11ec-b14a-956f5c13839e",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-02T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-02T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-02T08:00:00.000Z",
+    "scanOut": "2022-05-02T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "OVERTIME",
+    "updatedAt": "2022-05-25T02:26:55.258Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-02T17:00:00.000Z",
+      "startedAt": "2022-05-02T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-02|5a146fe0-d0f0-11ec-ae64-4bba1e1a4805",
+    "createdAt": "2022-05-25T02:38:17.757Z",
+    "date": "2022-05-02",
+    "dayType": "WORKDAY",
+    "employeeID": "5a146fe0-d0f0-11ec-ae64-4bba1e1a4805",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-02T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-02T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-02T08:00:00.000Z",
+    "scanOut": "2022-05-02T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "ATTENDANCE",
+    "updatedAt": "2022-05-25T02:38:17.757Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-02T17:00:00.000Z",
+      "startedAt": "2022-05-02T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-03|0981b530-db43-11ec-b14a-956f5c13839e",
+    "createdAt": "2022-05-25T02:32:13.471Z",
+    "date": "2022-05-03",
+    "dayType": "WORKDAY",
+    "employeeID": "0981b530-db43-11ec-b14a-956f5c13839e",
+    "leaveDeductList": [
+     {
+      "endedAt": "2022-05-03T17:00:00.000Z",
+      "leaveForm": "FULLDAY_LEAVE",
+      "leaveMinute": 480,
+      "leaveType": "ABSENT",
+      "startedAt": "2022-05-03T08:00:00.000Z"
+     }
+    ],
+    "leaveList": [
+     {
+      "endedAt": "2022-05-03T17:00:00.000Z",
+      "leaveForm": "FULLDAY_LEAVE",
+      "leaveMinute": 480,
+      "leaveType": "ABSENT",
+      "startedAt": "2022-05-03T08:00:00.000Z"
+     }
+    ],
+    "Type": "LEAVE",
+    "updatedAt": "2022-05-25T02:32:13.471Z",
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-04|0981b530-db43-11ec-b14a-956f5c13839e",
+    "createdAt": "2022-05-25T02:34:03.628Z",
+    "date": "2022-05-04",
+    "dayType": "WORKDAY",
+    "employeeID": "0981b530-db43-11ec-b14a-956f5c13839e",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-04T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-04T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-04T08:00:00.000Z",
+    "scanOut": "2022-05-04T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "ATTENDANCE",
+    "updatedAt": "2022-05-25T02:34:03.628Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-04T17:00:00.000Z",
+      "startedAt": "2022-05-04T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   },
+   {
+    "PK": "LINKLOOK",
+    "SK": "2022-05-05|0981b530-db43-11ec-b14a-956f5c13839e",
+    "createdAt": "2022-05-25T02:36:15.683Z",
+    "date": "2022-05-05",
+    "dayType": "WORKDAY",
+    "employeeID": "0981b530-db43-11ec-b14a-956f5c13839e",
+    "isLink": true,
+    "overtimeList": [
+     {
+      "dayType": null,
+      "endedAt": "2022-05-05T19:00:00.000Z",
+      "locationType": null,
+      "overtimeMinute": 180,
+      "overtimeType": null,
+      "startedAt": "2022-05-05T17:00:00.000Z"
+     }
+    ],
+    "remark": "i'm top - working day!",
+    "scanIn": "2022-05-05T08:00:00.000Z",
+    "scanOut": "2022-05-05T17:00:00.000Z",
+    "shiftEndTime": "17:00",
+    "shiftName": "Shift A(Ant)",
+    "shiftStartTime": "08:00",
+    "shiftVersion": "v0.1",
+    "Type": "ATTENDANCE",
+    "updatedAt": "2022-05-25T02:36:15.683Z",
+    "workingTimeList": [
+     {
+      "endedAt": "2022-05-05T17:00:00.000Z",
+      "startedAt": "2022-05-05T08:00:00.000Z",
+      "workingMinute": 480
+     }
+    ],
+    "_typename": "TimeAttendanceReport"
+   }
+]

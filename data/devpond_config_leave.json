@@ -1,0 +1,236 @@
+[
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1001",
+    "__typename": "LeaveConfig",
+    "id": "LC1001",
+    "name": "ลาป่วย",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": false,
+    "isLeaveDiligent": false,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": true,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 30,
+        "maxLeavePaidDay": 30
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1002",
+    "__typename": "LeaveConfig",
+    "id": "LC1002",
+    "name": "ลาคลอด",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 30,
+    "isLeaveDiligent": true,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 90,
+        "maxLeavePaidDay": 45
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1003",
+    "__typename": "LeaveConfig",
+    "id": "LC1003",
+    "name": "ลาบวช",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "WORK_LIFE",
+    "employeeAllowSexList": ["MALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 30,
+    "isLeaveDiligent": false,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": true,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": true,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 90,
+        "maxLeavePaidDay": 45
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1004",
+    "__typename": "LeaveConfig",
+    "id": "LC1004",
+    "name": "ลาทำหมัน",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 30,
+    "isLeaveDiligent": true,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 2,
+        "maxLeavePaidDay": 2
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1005",
+    "__typename": "LeaveConfig",
+    "id": "LC1005",
+    "name": "ลารับราชการทหาร",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 30,
+    "isLeaveDiligent": true,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 5,
+        "maxLeavePaidDay": 5
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1006",
+    "__typename": "LeaveConfig",
+    "id": "LC1006",
+    "name": "ลากิจ",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 3,
+    "isLeaveDiligent": true,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": true,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 4,
+        "maxLeavePaidDay": 4
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC1007",
+    "__typename": "LeaveConfig",
+    "id": "LC1007",
+    "name": "ลาพักร้อน",
+    "isActive": true,
+    "leaveConfigType": "BY_LAW",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": true,
+    "leaveBeforehandDay": 3,
+    "isLeaveDiligent": false,
+    "isLeaveCompound": true,
+    "leaveCompoundType": "HALF",
+    "maxLeaveCompound": 8,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": false,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 12,
+        "quotaLeaveDay": 6,
+        "maxLeavePaidDay": 6
+      },
+      {
+        "workMonthExperience": 72,
+        "quotaLeaveDay": 8,
+        "maxLeavePaidDay": 8
+      },
+      {
+        "workMonthExperience": 120,
+        "quotaLeaveDay": 10,
+        "maxLeavePaidDay": 10
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|LEAVE_CONFIG",
+    "SK": "LINKLOOK|LEAVE_CONFIG|LC2001",
+    "__typename": "LeaveConfig",
+    "id": "LC2001",
+    "name": "ลาถึงแก่กรรมของครอบครัว",
+    "isActive": true,
+    "leaveConfigType": "BY_COMPANY",
+    "leaveAmountType": "PER_YEAR",
+    "employeeAllowSexList": ["MALE", "FEMALE"],
+    "employeeAllowTypeList": ["FULLTIME_MONTH", "FULLTIME_DAY"],
+    "isLeaveBeforehand": false,
+    "isLeaveDiligent": false,
+    "isLeaveCompound": false,
+    "isLookupNotWorkday": false,
+    "isLeaveAfterhand": false,
+    "isCountProbation": false,
+    "isExceedQuota": false,
+    "isLeaveOnce": true,
+    "leaveQuotaList": [
+      {
+        "workMonthExperience": 0,
+        "quotaLeaveDay": 7,
+        "maxLeavePaidDay": 7
+      }
+    ]
+  }
+]

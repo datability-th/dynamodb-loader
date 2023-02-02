@@ -1,0 +1,14 @@
+[
+    {
+        "id": "PG1",
+        "name": "แพ็กเกจ 1",
+        "welfarePackageList": [
+            {
+                "welfareConfigID": "",
+                "isCustom": true,
+                "customQuota": 4500
+            }
+        ],
+        "leavePackageList": []
+    }
+]

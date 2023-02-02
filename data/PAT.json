@@ -1,0 +1,1209 @@
+[
+  {
+    "patId": "TInnovationtechkren703lg83ny",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": [
+        {
+          "value": {
+            "text": "Woo Hooooooo hello ! bois !"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Woo Hooooooo step #2 with a Fucking putPAT bois !"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TInnovationtechkren703lg83ny",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-22T08:18:09.345Z",
+    "description": "woaHHHHHHHHHH",
+    "name": "Ping can create PAT template",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-22T08:26:01.519Z",
+    "userId": "Innovationtech",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01kraqe2z8qLXL6",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": []
+    }
+  },
+  {
+    "patId": "TU01kraqe2z8qLXL6",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": []
+    }
+  },
+  {
+    "patId": "TU01kraqe2z8qLXL6",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T14:36:33.812Z",
+    "description": "description of PAT number one",
+    "name": "PAT number one",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-19T15:05:28.378Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01kraxeusaWYQBP",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 0.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 0.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraxeusaWYQBP",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 1.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 1.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraxeusaWYQBP",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T17:53:07.162Z",
+    "description": "description of PAT number one",
+    "name": "PAT number one",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-19T17:53:07.162Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TUInnokrg1g3ln7ESr_",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": ""
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TUInnokrg1g3ln7ESr_",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-23T07:44:54.587Z",
+    "description": "hello ping pat",
+    "name": "newping pat",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-23T07:44:54.587Z",
+    "userId": "UInno",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01kray33fgTOGkO",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนบานพับ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png,https://www.pngall.com/wp-content/uploads/2016/03/Cat-PNG-2.png"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "1.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.1 บานพับที่เปลี่ยนใหม่ถูกต้องตามจำนวน 4 ชุด และมีความมั่นคงแข็งแรง"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.2 ทดสอบน้ำวิธีการตามเอกสารแนบท้าย ไม่มีรอยน้ำเข้าตามรูน๊อตของบานพับที่เปลี่ยน"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.3 บานประตูตู้ปิดสนิทเมื่อนำระดับน้ำเทียบระหว่างบานประตูและขอบตู้ อยู่ในระดับเดียวกับตัวตู้"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "isNeedBefore": true,
+            "maximumFileSize": 1024,
+            "text": "รูปตู้ปิดประตู",
+            "isNeedAfter": true
+          },
+          "lineNo": "7",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "isNeedBefore": true,
+            "maximumFileSize": 1024,
+            "text": "รูปบานพับประตูถ่ายใกล้",
+            "isNeedAfter": true
+          },
+          "lineNo": "8",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "isNeedBefore": true,
+            "maximumFileSize": 1024,
+            "text": "รูปการเก็บงานบานพับด้วย ซิลิโคน PU",
+            "isNeedAfter": true
+          },
+          "lineNo": "9",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "1.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "10",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.1"
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.2"
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kray33fgTOGkO",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 1.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 1.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kray33fgTOGkO",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T18:11:58.108Z",
+    "description": "งานปรับปรุงตู้ POE ในโครงการ AIS",
+    "name": "PAT CHECKLIST",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-19T18:11:58.108Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TUInnokrg37owtUY2TZ",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": ""
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/PAT/pat/customer/0-1-%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2.png"
+          },
+          "lineNo": "1",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 0,
+            "maximumFileSize": 0,
+            "uploadBeforeValue": "",
+            "text": "",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "2",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isApproved": true,
+            "approvalRemark": ""
+          },
+          "lineNo": "3",
+          "lineType": "APPROVE"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TUInnokrg37owtUY2TZ",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-23T08:34:21.533Z",
+    "description": "ya Hoo",
+    "name": "new pat for ping project",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-23T08:34:21.533Z",
+    "userId": "UInno",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01krbree4so3nCY",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนบานพับ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test1.PNG,https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test2.PNG"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "1.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.1 บานพับที่เปลี่ยนใหม่ถูกต้องตามจำนวน 4 ชุด และมีความมั่นคงแข็งแรง"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.2 ทดสอบน้ำวิธีการตามเอกสารแนบท้าย ไม่มีรอยน้ำเข้าตามรูน๊อตของบานพับที่เปลี่ยน"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.3 บานประตูตู้ปิดสนิทเมื่อนำระดับน้ำเทียบระหว่างบานประตูและขอบตู้ อยู่ในระดับเดียวกับตัวตู้"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test3.PNG",
+            "text": "รูปตู้ปิดประตู",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test4.PNG"
+          },
+          "lineNo": "7",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test5.PNG",
+            "text": "รูปบานพับประตูถ่ายใกล้",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test6.PNG"
+          },
+          "lineNo": "8",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test5.PNG",
+            "text": "รูปการเก็บงานบานพับด้วย ซิลิโคน PU",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test6.PNG"
+          },
+          "lineNo": "9",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "1.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "10",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.1",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.2",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01krbree4so3nCY",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนก้านล้อ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "2.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test1.PNG,https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test2.PNG"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "2.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "2.2.1 ตรวจสอบว่าได้เปลี่ยนก้านล้อเป็นแบบแบนแล้ว ทั้งตัวบน และตัวล่าง"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "2.2.2 ทดสอบโดยการหมุนเปิด-ปิด มือจับว่าปิด-เปิดตู้ได้สะดวก"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "2.2.3 ตรวจสอบว่าช่อง Filter ด้านบนปิดเรียบร้อย"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": "ก้านล้อเต็มประตู",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "7",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": "รูป Support ก้านล็อค",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "8",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": "รูป Filter บน",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "9",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "2.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "10",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "2.3.1",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "2.3.2",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01krbree4so3nCY",
+    "lineNo": "2",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนขอบยางตู้"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test1.PNG,https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test2.PNG"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "3.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.2.1 ทดสอบมือจับ ว่าไส้กุญแจสามารถล๊อคได้หรือไม่"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.2.2 ทดสอบว่า Pad Lock สามารถคล้องกุญแจล๊อคได้หรือไม่ (ถ้าไม่ได้ให้เปลี่ยน Pad Lock)"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.2.3 มีการเปลี่ยนยางขอบตู้ใหม่โดยรอบตู้"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.2.3 ตรวจสอบแนวรอยต่อของขอบยางว่าอยู่ใต้แผ่นรองเหยียบ และประสานรอยต่อโดยกาวประสาน"
+          },
+          "lineNo": "7",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "3.2.4 ยางบริเวณมุมตู้ต้องไม่เกิดการยับยู่"
+          },
+          "lineNo": "8",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test4.PNG,https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test3.PNG"
+          },
+          "lineNo": "9",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": "รูปมือจับ (Handle Lock)",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "10",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": " รูปขอบยางเต็มประตู",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "",
+            "text": " รูปขอบยางบริเวณมุม",
+            "uploadAfterValue": ""
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "3.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "13",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "3.3.1",
+            "uploadAfterValue": "asdf3"
+          },
+          "lineNo": "14",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "3.3.2",
+            "uploadAfterValue": "asdf3"
+          },
+          "lineNo": "15",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01krbree4so3nCY",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-20T07:52:34.060Z",
+    "description": "งานปรับปรุงตู้ POE Physical Improvement + Modify to HEX 2000W ในโครงการ AIS",
+    "name": "PAT2021 #4.POE Physical Improvement + Modify to HEX 2000W",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-20T07:52:34.060Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01krb202fcLo5b3",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนบานพับ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test1.PNG,https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test2.PNG"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "1.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.1 บานพับที่เปลี่ยนใหม่ถูกต้องตามจำนวน 4 ชุด และมีความมั่นคงแข็งแรง"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.2 ทดสอบน้ำวิธีการตามเอกสารแนบท้าย ไม่มีรอยน้ำเข้าตามรูน๊อตของบานพับที่เปลี่ยน"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.3 บานประตูตู้ปิดสนิทเมื่อนำระดับน้ำเทียบระหว่างบานประตูและขอบตู้ อยู่ในระดับเดียวกับตัวตู้"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test3.PNG",
+            "text": "รูปตู้ปิดประตู",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test4.PNG"
+          },
+          "lineNo": "7",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test5.PNG",
+            "text": "รูปบานพับประตูถ่ายใกล้",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test6.PNG"
+          },
+          "lineNo": "8",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test5.PNG",
+            "text": "รูปการเก็บงานบานพับด้วย ซิลิโคน PU",
+            "uploadAfterValue": "https://changtam-bucket.s3.ap-southeast-1.amazonaws.com/Test6.PNG"
+          },
+          "lineNo": "9",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "1.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "10",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "isNeedBefore": null,
+            "isNeedAfter": null,
+            "uploadType": "TEXT",
+            "maximumFileNumber": null,
+            "maximumFileSize": null,
+            "uploadBeforeValue": "",
+            "text": "1.3.1",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": null,
+            "isNeedAfter": null,
+            "uploadType": "TEXT",
+            "maximumFileNumber": null,
+            "maximumFileSize": null,
+            "uploadBeforeValue": "",
+            "text": "1.3.2",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01krb202fcLo5b3",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 1.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 1.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01krb202fcLo5b3",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T20:01:35.304Z",
+    "description": "งานปรับปรุงตู้ POE ในโครงการ AIS",
+    "name": "PAT CHECKLIST",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-20T04:48:53.438Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01kraz8y8cMaiD3",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนบานพับ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png,https://www.pngall.com/wp-content/uploads/2016/03/Cat-PNG-2.png"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        },
+        {
+          "value": {
+            "text": "1.2 การตรวจสอบและการตรวจรับงาน"
+          },
+          "lineNo": "3",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.1 บานพับที่เปลี่ยนใหม่ถูกต้องตามจำนวน 4 ชุด และมีความมั่นคงแข็งแรง"
+          },
+          "lineNo": "4",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.2 ทดสอบน้ำวิธีการตามเอกสารแนบท้าย ไม่มีรอยน้ำเข้าตามรูน๊อตของบานพับที่เปลี่ยน"
+          },
+          "lineNo": "5",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.2.3 บานประตูตู้ปิดสนิทเมื่อนำระดับน้ำเทียบระหว่างบานประตูและขอบตู้ อยู่ในระดับเดียวกับตัวตู้"
+          },
+          "lineNo": "6",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png",
+            "text": "รูปตู้ปิดประตู",
+            "uploadAfterValue": "https://www.pngall.com/wp-content/uploads/2016/03/Cat-PNG-2.png"
+          },
+          "lineNo": "7",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png",
+            "text": "รูปบานพับประตูถ่ายใกล้",
+            "uploadAfterValue": "https://www.pngall.com/wp-content/uploads/2016/03/Cat-PNG-2.png"
+          },
+          "lineNo": "8",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "isNeedBefore": true,
+            "isNeedAfter": true,
+            "uploadType": "IMAGE",
+            "maximumFileNumber": 1,
+            "maximumFileSize": 1024,
+            "uploadBeforeValue": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png",
+            "text": "รูปการเก็บงานบานพับด้วย ซิลิโคน PU",
+            "uploadAfterValue": "https://www.pngall.com/wp-content/uploads/2016/03/Cat-PNG-2.png"
+          },
+          "lineNo": "9",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "text": "1.3 รายการที่ให้แก้ไข"
+          },
+          "lineNo": "10",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.1",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "11",
+          "lineType": "UPLOAD"
+        },
+        {
+          "value": {
+            "uploadType": "TEXT",
+            "text": "1.3.2",
+            "uploadAfterValue": "asdf"
+          },
+          "lineNo": "12",
+          "lineType": "UPLOAD"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraz8y8cMaiD3",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 1.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 1.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraz8y8cMaiD3",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T18:44:30.924Z",
+    "description": "งานปรับปรุงตู้ POE ในโครงการ AIS",
+    "name": "PAT CHECKLIST",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-19T18:44:30.924Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TU01kraxtpdydUeFe",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "required": true,
+      "lineList": [
+        {
+          "value": {
+            "text": "การเปลี่ยนบานพับ"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "1.1 อุปกรณ์ในการติดตั้ง และการติดตั้ง"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "https://e7.pngegg.com/pngimages/614/838/png-clipart-cute-cat-animal-cat.png"
+          },
+          "lineNo": "2",
+          "lineType": "IMAGE"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraxtpdydUeFe",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "required": false,
+      "lineList": [
+        {
+          "value": {
+            "text": "Test Text on line 1.0"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        },
+        {
+          "value": {
+            "text": "Test Text on line 1.1"
+          },
+          "lineNo": "1",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TU01kraxtpdydUeFe",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-19T18:04:40.006Z",
+    "description": "งานปรับปรุงตู้ POE ในโครงการ AIS",
+    "name": "PAT CHECKLIST",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-19T18:04:40.006Z",
+    "userId": "U01",
+    "versionNo": "1"
+  },
+  {
+    "patId": "TInnovationtechkrekxkt5oyQzm",
+    "lineNo": "0",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": [
+        {
+          "value": {
+            "text": ""
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TInnovationtechkrekxkt5oyQzm",
+    "lineNo": "1",
+    "lineType": "GROUP",
+    "value": {
+      "lineList": [
+        {
+          "value": {
+            "text": "wow wow wow"
+          },
+          "lineNo": "0",
+          "lineType": "TEXT"
+        }
+      ]
+    }
+  },
+  {
+    "patId": "TInnovationtechkrekxkt5oyQzm",
+    "lineNo": "PAT",
+    "createdAt": "2021-07-22T07:14:50.393Z",
+    "description": "Hello from PING",
+    "name": "Ping",
+    "status": "WAIT_FILL",
+    "updatedAt": "2021-07-23T07:53:10.020Z",
+    "userId": "Innovationtech",
+    "versionNo": "1"
+  }
+]

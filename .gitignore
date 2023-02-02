@@ -107,10 +107,10 @@ dist
 .env
 
 # Data files
-data/*
+# data/*
 # Sample Data Files
-!data/data.csv
-!data/data.json
+# !data/data.csv
+# !data/data.json
 
 # Postprocess Adapters
 # adapter/*

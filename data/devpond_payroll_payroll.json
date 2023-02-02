@@ -1,0 +1,1020 @@
+[
+  {
+    "PK": "LINKLOOK|2022-04",
+    "SK": "LINKLOOK|1.1",
+    "employeeCount": 2,
+    "status": "PENDING"
+  },
+  {
+    "PK": "LINKLOOK|2022-04",
+    "SK": "LINKLOOK|1.1|1019|PAYROLL",
+    "daysInPeriod": 31,
+    "employeeID": "1019",
+    "workingMinute": 240,
+    "leaveMinute": 20,
+    "leaveDeductMinute": 123,
+    "otTypeWorkMinute": 222,
+    "otTypeOTMinute": 12,
+
+    "income": 21039.2,
+    "otTypeWorkIncome": 1213.12,
+    "otTypeOTIncome": 2213.23,
+    "otherIncomeList": [
+      {
+        "id": "IN01",
+        "name": "ค่าasdpoi",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "VARIABLE",
+        "amount": 293.19
+      },
+      {
+        "id": "IN02",
+        "name": "ค่าasdpo2i",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "VARIABLE",
+        "amount": 393.39
+      },
+      {
+        "id": "IN03",
+        "name": "ค่าasdpoi",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "FIXED",
+        "amount": 22
+      }
+    ],
+    "welfareList": [
+      {
+        "id": "WE001",
+        "name": "ค่าอาหาร",
+        "amount": 293.19
+      },
+      {
+        "id": "WE002",
+        "name": "ค่าขนม",
+        "amount": 293.19
+      }
+    ],
+    "workDiligentIncome": 123,
+    "inEarlyIncome": 0,
+    "breakEarlyIncome": 12,
+    "outLateIncome": 0,
+    "netPositiveIncome": 123324.12,
+
+    "otherExpenseList": [
+      {
+        "id": "EX01",
+        "name": "EXasdpoi",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "VARIABLE",
+        "amount": -33293.19
+      },
+      {
+        "id": "EX02",
+        "name": "EXASasdpo2i",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "VARIABLE",
+        "amount": -31193.39
+      },
+      {
+        "id": "EX03",
+        "name": "EXasdq1asdpoi",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "FIXED",
+        "amount": -322
+      }
+    ],
+    "inLateExpense": -123,
+    "breakLateExpense": 0,
+    "outEarlyExpense": 0,
+    "netNegativeIncome": -10229.19,
+    "netIncome": 120393.29
+  },
+  {
+    "PK": "LINKLOOK|2022-04",
+    "SK": "LINKLOOK|1.1|1019|TIME_ATTENDANCE",
+    "timeAttendanceReportList": [
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-01|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-01",
+        "dayType": "WEEKEND",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 15,
+        "outDiffMinute": 44,
+        "scanIn": "2022-05-01T08:15:00.000Z",
+        "scanOut": "2022-05-01T17:44:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-02|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-02",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -53,
+        "outDiffMinute": -44,
+        "scanIn": "2022-05-02T07:07:00.000Z",
+        "scanOut": "2022-05-02T16:16:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-03|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-03",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 11,
+        "outDiffMinute": -40,
+        "scanIn": "2022-05-03T08:11:00.000Z",
+        "scanOut": "2022-05-03T16:20:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-04|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-04",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 33,
+        "outDiffMinute": 50,
+        "scanIn": "2022-05-04T08:33:00.000Z",
+        "scanOut": "2022-05-04T17:50:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-05|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-05",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -31,
+        "outDiffMinute": -11,
+        "scanIn": "2022-05-05T07:29:00.000Z",
+        "scanOut": "2022-05-05T16:49:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-06|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-06",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -24,
+        "outDiffMinute": 12,
+        "scanIn": "2022-05-06T07:36:00.000Z",
+        "scanOut": "2022-05-06T17:12:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-07|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-07",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -33,
+        "outDiffMinute": -33,
+        "scanIn": "2022-05-07T07:27:00.000Z",
+        "scanOut": "2022-05-07T16:27:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-08|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-08",
+        "dayType": "WEEKEND",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -17,
+        "outDiffMinute": -54,
+        "scanIn": "2022-05-08T07:43:00.000Z",
+        "scanOut": "2022-05-08T16:06:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-09|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-09",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 40,
+        "outDiffMinute": 40,
+        "scanIn": "2022-05-09T08:40:00.000Z",
+        "scanOut": "2022-05-09T17:40:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-10|1019",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-10",
+        "dayType": "WORKDAY",
+        "employeeID": "1019",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -24,
+        "outDiffMinute": -12,
+        "scanIn": "2022-05-10T07:36:00.000Z",
+        "scanOut": "2022-05-10T16:48:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      }
+    ]
+  },
+  {
+    "PK": "LINKLOOK|2022-04",
+    "SK": "LINKLOOK|1.1|1021|PAYROLL",
+    "daysInPeriod": 31,
+    "employeeID": "1021",
+    "workingMinute": 11,
+    "leaveMinute": 1234,
+    "leaveDeductMinute": 22,
+    "otTypeWorkMinute": 1,
+    "otTypeOTMinute": 712,
+
+    "income": 567345.2,
+    "otTypeWorkIncome": 12314.12,
+    "otTypeOTIncome": 6457.23,
+    "otherIncomeList": [
+      {
+        "id": "IN01",
+        "name": "ค่าasdpoi",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "VARIABLE",
+        "amount": 245.19
+      },
+      {
+        "id": "IN02",
+        "name": "ค่าasdpo2i",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "VARIABLE",
+        "amount": 7542.39
+      },
+      {
+        "id": "IN03",
+        "name": "ค่าasdpoi",
+        "incomeExpenseType": "INCOME",
+        "incomeOrExpense": "INCOME",
+        "variableOrFixed": "FIXED",
+        "amount": 15
+      }
+    ],
+    "welfareList": [
+      {
+        "id": "WE001",
+        "name": "ค่าอาหาร",
+        "amount": 293.19
+      },
+      {
+        "id": "WE002",
+        "name": "ค่าขนม",
+        "amount": 293.19
+      }
+    ],
+    "workDiligentIncome": 2,
+    "inEarlyIncome": 0,
+    "breakEarlyIncome": 1132,
+    "outLateIncome": 0,
+    "netPositiveIncome": 1231235.12,
+
+    "otherExpenseList": [
+      {
+        "id": "EX01",
+        "name": "EXasdpoi",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "VARIABLE",
+        "amount": -234.19
+      },
+      {
+        "id": "EX02",
+        "name": "EXASasdpo2i",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "VARIABLE",
+        "amount": -72.39
+      },
+      {
+        "id": "EX03",
+        "name": "EXasdq1asdpoi",
+        "incomeExpenseType": "EXPENSE",
+        "incomeOrExpense": "EXPENSE",
+        "variableOrFixed": "FIXED",
+        "amount": -11
+      }
+    ],
+    "inLateExpense": -12356,
+    "breakLateExpense": 0,
+    "outEarlyExpense": -1346,
+    "netNegativeIncome": -16134.19,
+    "netIncome": 134145.29
+  },
+  {
+    "PK": "LINKLOOK|2022-04",
+    "SK": "LINKLOOK|1.1|1021|TIME_ATTENDANCE",
+    "timeAttendanceReportList": [
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-01|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-01",
+        "dayType": "WEEKEND",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -44,
+        "outDiffMinute": -33,
+        "scanIn": "2022-05-01T07:16:00.000Z",
+        "scanOut": "2022-05-01T16:27:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-02|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-02",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -11,
+        "outDiffMinute": -2,
+        "scanIn": "2022-05-02T07:49:00.000Z",
+        "scanOut": "2022-05-02T16:58:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-03|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-03",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 0,
+        "outDiffMinute": 51,
+        "scanIn": "2022-05-03T08:00:00.000Z",
+        "scanOut": "2022-05-03T17:51:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-04|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-04",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 7,
+        "outDiffMinute": 16,
+        "scanIn": "2022-05-04T08:07:00.000Z",
+        "scanOut": "2022-05-04T17:16:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-05|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-05",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -35,
+        "outDiffMinute": 27,
+        "scanIn": "2022-05-05T07:25:00.000Z",
+        "scanOut": "2022-05-05T17:27:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-06|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-06",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 4,
+        "outDiffMinute": 28,
+        "scanIn": "2022-05-06T08:04:00.000Z",
+        "scanOut": "2022-05-06T17:28:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-07|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-07",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": 49,
+        "outDiffMinute": -55,
+        "scanIn": "2022-05-07T08:49:00.000Z",
+        "scanOut": "2022-05-07T16:05:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-08|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-08",
+        "dayType": "WEEKEND",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -20,
+        "outDiffMinute": 33,
+        "scanIn": "2022-05-08T07:40:00.000Z",
+        "scanOut": "2022-05-08T17:33:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-09|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-09",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -39,
+        "outDiffMinute": -18,
+        "scanIn": "2022-05-09T07:21:00.000Z",
+        "scanOut": "2022-05-09T16:42:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      },
+      {
+        "PK": "LINKLOOK",
+        "SK": "2022-05-10|1021",
+        "companyID": "LINKLOOK",
+        "createdAt": "2022-05-30T11:48:07.816Z",
+        "updatedAt": "2022-05-30T11:48:07.816Z",
+        "date": "2022-05-10",
+        "dayType": "WORKDAY",
+        "employeeID": "1021",
+        "remark": "หมายเหตุกรุงศรี",
+        "inDiffMinute": -22,
+        "outDiffMinute": -38,
+        "scanIn": "2022-05-10T07:38:00.000Z",
+        "scanOut": "2022-05-10T16:22:00.000Z",
+        "isLink": true,
+        "overtimeList": [
+          {
+            "dayType": "WORKDAY",
+            "endedAt": "2022-05-01T15:00:00.000Z",
+            "locationType": "OFFICE",
+            "overtimeMinute": 180,
+            "overtimeType": "WORK",
+            "startedAt": "2022-05-01T08:20:00.000Z"
+          }
+        ],
+        "overtimeMinute": 180,
+        "shiftMinute": 480,
+        "shiftName": "Shift A",
+        "shiftStartTime": "08:00",
+        "shiftEndTime": "17:00",
+        "shiftVersion": "v1",
+        "workingMinute": 480,
+        "workingTimeList": [
+          {
+            "endedAt": "2022-05-01T10:27:00.000Z",
+            "startedAt": "2022-05-01T01:20:00.000Z",
+            "workingMinute": 480
+          }
+        ],
+        "_typename": "TimeAttendanceReport"
+      }
+    ]
+  }
+]
